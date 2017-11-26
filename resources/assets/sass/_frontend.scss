@@ -1,0 +1,196 @@
+
+//Custom Addition
+section{
+  overflow: hidden;
+}
+.text-justified{
+  text-align: justify;
+}
+
+nav{
+  background: transparent!important;
+}
+
+.brand-text{
+  background-image: -webkit-gradient(linear,0% 0%,25% 100%,from(#9E7CC1),to(#8ECDEA));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Keynote Speaker Slider */
+
+.keynotespeaker{
+  overflow: hidden;
+  .keynoteitems{
+    padding: 40px 0px 20px 0px;
+    display: block;
+    width: 100%;
+
+    .item{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .item-text{
+        padding-top: 40px;
+      }
+    }
+  }
+}
+.schedule-panel{
+  ul{
+    li{
+      margin-bottom: 20px;
+      strong{
+        font-style: italic;
+      }
+    }
+  }
+}
+
+// Program Details
+/* Tabs */
+.box-tabs{
+  padding-top: 30px;
+  .count-down{
+      font-weight: 900;
+      font-size: 43px;
+      padding: 60px 0px;
+  }
+}
+
+.tabs-vertical {
+    .tabs {
+        height: auto;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .tab {
+        width: 100%;
+
+        .active {
+            -moz-transition: border-color .5s ease;
+            -o-transition: border-color .5s ease;
+            -webkit-transition: border-color .5s ease;
+            transition: border-color .5s ease;
+            //border-right: 3px solid #424242;
+            border-bottom: 3px solid #eee;
+        }
+
+        :hover {
+            //border-right-color: #eeeeee;
+        }
+    }
+
+    .indicator {
+        display: none;
+    }
+}
+
+//speakers
+#speakers{
+  overflow: hidden;
+  padding: 3rem 0 2rem 0;
+  .card-panel{
+    background: transparent!important;
+  }
+
+  .speaker-item{
+    color: white;
+    .client-img{
+      img{
+        width: 50%;
+        height: 50%;
+        border-radius: 50%!important;
+      }
+    }
+  }
+}
+
+#details{
+  overflow: hidden;
+  padding: 3rem 0 2rem 0;
+  .tabs-vertical{
+    overflow: hidden;
+    display: block;
+  }
+}
+
+//venue
+#venue{
+  overflow: hidden;
+  padding: 3rem 0 2rem 0;
+  blockquote{
+    &:before{
+      position: inherit;
+      content: '\f10d';
+      font-family: 'FontAwesome';
+      display: block;
+      left: 0;
+      font-size: 27px;
+    }
+  }
+
+  .convenor-contact{
+    padding: 2rem 0 0 0;
+    .material-icons{
+      padding: .5rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+//Paper
+#paper{
+  overflow: hidden;
+  padding: 3rem 0;
+}
+
+//Map
+#feature-map{
+  overflow: hidden;
+  height: 400px;
+  border-top: 1px solid #e7ebf3;
+  border-bottom: 1px solid #e7ebf3;
+  .feature-content{
+
+  }
+  .gmap{
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+  }
+  iframe{
+    pointer-events: none;
+  }
+  iframe.clicked{
+    pointer-events: auto;
+  }
+
+  .navigation{
+    position: relative;
+    bottom: 6rem;
+    .card{
+      padding: .5rem .5rem !important;
+      margin: 0!important;
+      display: inline-block;
+      background: #DAF7A6;
+      .material-icons{
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+//Sponsors
+#sponsors{
+  overflow: hidden;
+
+  padding: 3rem 0 4rem 0;
+}
