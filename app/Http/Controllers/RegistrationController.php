@@ -11,11 +11,6 @@ use Storage;
 
 class RegistrationController extends Controller
 {
-
-  public function __construct()
-  {
-      $this->middleware('role:superadministrstor|administrator|student');
-  }
     //Storing Participant
     public function registerSubmit(Request $request){
       $this->validate($request, [

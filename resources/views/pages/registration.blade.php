@@ -27,7 +27,7 @@
 
 
                         <label for="name">Full Name (Delegate Name)</label>
-                        <input name="name" value="{{ Auth::user()->name }}" id="name" placeholder="Delegate Name" type="text"  class="validate" required/>
+                        <input name="name" value="" id="name" placeholder="Delegate Name" type="text"  class="validate" required/>
 
 
                         <!-- Select Category Type -->
@@ -82,7 +82,7 @@
 
 
                         <label for="email">Email</label>
-                        <input name="email" value="{{ Auth::user()->email }}" id="email" placeholder="Email" type="text" class="validate" required/>
+                        <input name="email" value="" id="email" placeholder="Email" type="text" class="validate" required/>
 
                         <label for="phone">Phone</label>
                         <input name="phone" id="phone" placeholder="Phone Number" type="text" class="validate" required/>

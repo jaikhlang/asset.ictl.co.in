@@ -18,6 +18,7 @@ class PageController extends Controller
 
     //Registration Page
     public function registration(){
+      //Find the user
       return view('pages.registration');
     }
 
