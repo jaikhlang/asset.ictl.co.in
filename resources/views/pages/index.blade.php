@@ -25,19 +25,13 @@
   <section class="page-carousel">
     <div class="carousel carousel-slider center" data-indicators="true">
       <div class="carousel-fixed-item container">
-        <a class="btn waves-effect red white-text darken-text-2 left" style="text-transform: unset!important;">Register Now!</a>
+        <a class="btn waves-effect red white-text darken-text-2 left hide-on-med-and-down" style="text-transform: unset!important;">Register Now!</a>
       </div>
       <div class="carousel-item red white-text" href="#one!">
         <img src="{{ asset('image/banner/s-2.jpg') }}" alt="">
       </div>
       <div class="carousel-item amber white-text" href="#two!">
-        <img src="{{ asset('image/banner/bagurumba.jpg') }}" alt="">
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <img src="{{ asset('image/banner/s-banner.jpg') }}" alt="">
-      </div>
-      <div class="carousel-item blue white-text" href="#four!">
-        <img src="{{ asset('image/banner/bagurumba.jpg') }}" alt="">
+        <img src="{{ asset('image/banner/s-1.jpg') }}" alt="">
       </div>
     </div>
   </section>

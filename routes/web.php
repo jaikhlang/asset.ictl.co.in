@@ -1,15 +1,7 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+//Basic Auth
+Auth::routes();
 
 //Homepage
 Route::get('/', 'PageController@index')->name('pages.index');
@@ -21,7 +13,15 @@ Route::get('/events-asset-organising-committee', 'PageController@committee')->na
 Route::get('/know-more-about-conference-asset', 'PageController@knowAsset')->name('abouts.asset');
 //About
 Route::get('/events-about-conference-venue', 'PageController@knowAbout')->name('abouts.about');
-//Basic Auth
-Auth::routes();
+
+Route::prefix('participation')->group(function(){
+  //Registration Page
+  Route::get('/event-asset-registration', 'PageController@registration')->name('events.registration');
+  //Registration Form Submit
+  Route::post('/event-asset-registration', 'RegistrationController@registerSubmit')->name('registrations.participant');
+  //Instamojo Billing
+  Route::get('/event-payment-billing', 'PaymentController@billingInfo')->name('payments.billing');
+});
+
 //Auth Home
 Route::get('/home', 'HomeController@index')->name('home');

@@ -15,4 +15,14 @@ class PageController extends Controller
     public function paper(){
       return view('pages.paper');
     }
+
+    //Registration Page
+    public function registration(){
+      return view('pages.registration');
+    }
+
+    //Committee Page
+    public function committee(){
+      return view('pages.committee');
+    }
 }

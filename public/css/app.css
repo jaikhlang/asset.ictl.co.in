@@ -13097,3 +13097,81 @@ nav {
   padding: 3rem 0 4rem 0;
 }
 
+#commitee {
+  overflow: hidden;
+  padding: 3rem 0;
+}
+
+#commitee .patrons {
+  padding: 3rem 0;
+}
+
+#commitee .patrons .profile-item span {
+  display: block;
+}
+
+#commitee .advisors {
+  overflow: hidden;
+  color: teal;
+}
+
+#commitee .advisors .advisors-header {
+  padding: 1.5rem 0;
+}
+
+#commitee .advisors .advisor-list li {
+  margin-top: 1.5rem;
+}
+
+#commitee .advisors .advisor-list span {
+  display: block;
+}
+
+#commitee .advisors .committee-header {
+  padding: 1.5rem 0;
+}
+
+#commitee .advisors .organising-list li {
+  margin-top: 1.5rem;
+}
+
+#commitee .advisors .organising-list span {
+  display: block;
+}
+
+#commitee .advisors .manager {
+  padding: 1.8rem 0;
+}
+
+#commitee .advisors .manager a {
+  vertical-align: middle;
+}
+
+#participant-registration {
+  overflow: hidden;
+  padding: 3rem 0;
+}
+
+#participant-registration .participant-category span {
+  display: block;
+}
+
+#participant-registration .registration-fee span {
+  display: block;
+}
+
+.dropdown-content {
+  top: 67px !important;
+  min-width: 130px !important;
+}
+
+.urse-sign-text:hover {
+  color: teal !important;
+  background: none !important;
+}
+
+#userDropList a:hover {
+  background: none !important;
+  color: grey !important;
+}
+

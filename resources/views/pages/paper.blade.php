@@ -70,7 +70,7 @@
                         The abstract of paper (not exceeding 200 words), the address “ASSET 2018”,
                         Kokrajhar, BTAD, Assam 783370 by <span class="black-text"><strong>31st December 2017</span></strong> or to the email id
                         <span class="black-text"><strong>asset.2k18@gmail.com</strong></span>, The authors are requested to submit their abstract in the prescribed
-                        format and in Times New Roman font size 12, abstract tittle front 14 bold. An author can
+                        format and in <span class="black-text">Times New Roman font size 12</span>, abstract tittle front 14 bold. An author can
                         submit up to a maximum of three paper, including papers having more than one author. All
                         abstracts submitted for presentation will be screened. Authors whose papers are accepted
                         will be informed at the earliest by the committee. The decision of the organising committee
