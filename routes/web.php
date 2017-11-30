@@ -18,7 +18,7 @@ Route::get('/events-about-conference-venue', 'PageController@knowAbout')->name('
 //About
 Route::get('/events-asset-conference-sponsor', 'PageController@sponsor')->name('events.sponsor');
 
-Route::prefix('participation')->middleware('role:administrator|participant')->group(function(){
+Route::prefix('participation')->group(function(){
   //Registration Page
   Route::get('/event-asset-registration', 'PageController@registration')->name('events.registration');
   //Registration Form Submit

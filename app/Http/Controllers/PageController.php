@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
 class PageController extends Controller
 {
@@ -19,7 +20,8 @@ class PageController extends Controller
     //Registration Page
     public function registration(){
       //Find the user
-      return view('pages.registration');
+      //$user = Auth::user();
+      return view('pages.registration');//->withUser($user);
     }
 
     //Committee Page
