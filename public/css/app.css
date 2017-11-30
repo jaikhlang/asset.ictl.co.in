@@ -13160,9 +13160,33 @@ nav {
   display: block;
 }
 
+#knowHost {
+  overflow: hidden;
+  padding: 3rem 0;
+}
+
+#knowHost .host-item {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+#knowHost .host-item span {
+  vertical-align: middle;
+  display: inline;
+  width: auto !important;
+}
+
+#knowHost .host-item span img {
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.09);
+}
+
 .dropdown-content {
   top: 67px !important;
   min-width: 130px !important;
+  width: 205px !important;
 }
 
 .urse-sign-text:hover {
@@ -13170,8 +13194,20 @@ nav {
   background: none !important;
 }
 
+#userDropList {
+  height: 66px;
+}
+
 #userDropList a:hover {
   background: none !important;
-  color: grey !important;
+  color: teal !important;
+}
+
+#mapDiv {
+  display: none !important;
+}
+
+#mapDiv .directions-card {
+  display: none !important;
 }
 

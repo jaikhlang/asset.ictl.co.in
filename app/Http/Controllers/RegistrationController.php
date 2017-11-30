@@ -3,13 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
+use Auth;
+use Image;
+use Seeion;
+use Storage;
 
 class RegistrationController extends Controller
 {
+
+  public function __construct()
+  {
+      $this->middleware('role:superadministrstor|administrator|student');
+  }
     //Storing Participant
     public function registerSubmit(Request $request){
       $this->validate($request, [
-          'group' => 'required|max:255',
+          'group' => 'required',
           'name' => 'required|max:255',
           'designation' => 'required|max:255',
           'organisation' => 'required|max:255',
@@ -20,7 +30,8 @@ class RegistrationController extends Controller
           'paper' => 'max:255',
       ]);
 
-      $participant = new Participant;
+      $user = Auth::user();
+      $participant = User::find($user->id);
       $participant->group = $request->group;
       $participant->name = $request->name;
       $participant->designation = $request->designation;
@@ -29,7 +40,7 @@ class RegistrationController extends Controller
       $participant->pin = $request->pin;
       $participant->email = $request->email;
       $participant->phone = $request->phone;
-      $participant->paper = $request->paper;
+      $participant->paper_title = $request->paper;
 
       if($request->hasFile('profileImg')){
           //Add New image
@@ -45,7 +56,7 @@ class RegistrationController extends Controller
       }
 
       //$request->session()->put('participant', $participant);
-
+      dd($participant);
       if($participant->save()){
         Session::flash('message', 'You have successfully applied for the conference.');
         return redirect()->route('payments.billing');

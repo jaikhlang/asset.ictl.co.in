@@ -262,11 +262,31 @@ nav{
   }
 }
 
+#knowHost{
+  overflow: hidden;
+  padding: 3rem 0;
+  .host-item{
+    padding: 1rem;
+    vertical-align: middle;
+    span{
+      vertical-align: middle;
+      display: inline;
+      width: auto!important;
+      img{
+        width: 30%;
+        padding: 0.5rem;
+        border-radius: 3px;
+        background: rgba(0,0,0,0.09);
+      }
+    }
+  }
+}
 
 //Navbar
 .dropdown-content{
   top: 67px!important;
   min-width: 130px!important;
+  width: 205px!important;
 }
 
 .urse-sign-text{
@@ -276,10 +296,18 @@ nav{
   }
 }
 #userDropList{
+  height: 66px;
   a{
     &:hover{
       background: none!important;
-      color: grey!important;
+      color: teal!important;
     }
+  }
+}
+
+#mapDiv{
+  display: none!important;
+  .directions-card{
+    display: none!important;
   }
 }

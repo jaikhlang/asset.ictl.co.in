@@ -28,7 +28,7 @@
         <div class="patrons col s12 m12 green card">
           <div class="col s12 m4 l4">
             <div class="profile-item white-text center">
-              <img src="{{ asset('image/profile/chiefpatron.jpg') }}" alt="Chief Patron Asset 2018">
+              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
               <span><strong>Chief Patron</strong></span>
               <span>Mr. Kampa Borgoyary, <span class="grey-text text-lighten-3">Deputy Chief, BTC</span></span>
             </div>
@@ -36,7 +36,7 @@
 
           <div class="col s12 m4 l4">
             <div class="profile-item white-text center">
-              <img src="{{ asset('image/profile/patron.jpg') }}" alt="Chief Patron Asset 2018">
+              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
               <span><strong>Patron</strong></span>
               <span>Prof. Hemanta Kumar Baruah<span class="grey-text text-lighten-3">VC, Bodoland University</span></span>
             </div>
@@ -44,7 +44,7 @@
 
           <div class="col s12 m4 l4">
             <div class="profile-item white-text center">
-              <img src="{{ asset('image/profile/chairman.jpg') }}" alt="Chief Patron Asset 2018">
+              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
               <span><strong>Chairman</strong></span>
               <span>Prof. Debkumar Chakrabarty<span class="grey-text text-lighten-3">Director, CIT</span></span>
             </div>

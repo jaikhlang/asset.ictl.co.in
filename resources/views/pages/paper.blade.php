@@ -16,8 +16,8 @@
     background-repeat: no-repeat;
   }
   </style>
-  <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/swiper.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/owl.carousel.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/swiper.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 @endsection
 
 @section('content')
@@ -67,10 +67,10 @@
                       <div class="divider"></div>
                       <h5 class="header">Abstracts Submission Guidelines</h5>
                       <div class="teal-text text-justified">
-                        The abstract of paper (not exceeding 200 words), the address “ASSET 2018”,
-                        Kokrajhar, BTAD, Assam 783370 by <span class="black-text"><strong>31st December 2017</span></strong> or to the email id
-                        <span class="black-text"><strong>asset.2k18@gmail.com</strong></span>, The authors are requested to submit their abstract in the prescribed
-                        format and in <span class="black-text">Times New Roman font size 12</span>, abstract tittle front 14 bold. An author can
+                        The abstract of paper (not exceeding 200 words), can be submitted to the address <span class="chip">“ASSET 2018”,
+                        CIT Kokrajhar, BTAD, Assam 783370</span> by <span class="black-text"><strong>31st December 2017</span></strong> or to the email id
+                        <span class="black-text"><strong class="chip">asset.2k18@gmail.com</strong></span>, The authors are requested to submit their abstract in the prescribed
+                        format and in <span class="black-text">Times New Roman font size 12</span>, abstract tittle <span class="black-text">font 14 bold</span>. An author can
                         submit up to a maximum of three paper, including papers having more than one author. All
                         abstracts submitted for presentation will be screened. Authors whose papers are accepted
                         will be informed at the earliest by the committee. The decision of the organising committee
@@ -125,8 +125,8 @@
 @endsection
 
 @section('scripts')
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/swiper.min.js"></script>
+  <script type="text/javascript" src="{{ asset('js/owl.carousel.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('js/swiper.min.js') }}"></script>
     <script type="text/javascript">
       //Carousel
       //$('.carousel.carousel-slider').carousel({fullWidth: true, duration: 200, dist: -20, indicators: true});

@@ -25,4 +25,19 @@ class PageController extends Controller
     public function committee(){
       return view('pages.committee');
     }
+
+    //Contact Page
+    public function contact(){
+      return view('pages.contact');
+    }
+
+    //Sponsor Page
+    public function sponsor(){
+      return view('pages.sponsor');
+    }
+
+    //Know About The Host
+    public function knowAbout(){
+      return view('pages.about');
+    }
 }

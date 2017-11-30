@@ -16,8 +16,8 @@
     background-repeat: no-repeat;
   }
   </style>
-  <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/swiper.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/owl.carousel.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{{ asset('css/swiper.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 @endsection
 
 @section('content')
@@ -48,7 +48,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ranaweera.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Dr. H Kharkwal <br><small>Joint Director, Ministry of Environment, Forest and Climate Change Indira Paryavaran Bhawan, New Delhi</small></h6>
@@ -58,7 +58,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/clara.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Prof. Bhupendra Nath Goswami<br> <small>Former Director, IITM, (Shanti Swarup Bhatnagar Awardee),Pune</small></h6>
@@ -68,7 +68,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/rodolf.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Prof. Nikhil Kumar Singha<br><small>Department of Rubber Technology, IIT Kharagpur, West Bengal</small></h6>
@@ -78,7 +78,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ibohal.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Prof. Uday Shanker &nbsp; Dixit <br> <small>Department of Mechanical Engineering,&nbsp; IIT Guwahati, Assam</small></h6>
@@ -90,7 +90,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/rath.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Prof. S N Naik<br> <small>Department of Center for Rural Development and Technology, IIT Delhi</small></h6>
@@ -100,7 +100,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ranaweera.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Prof. B K Das<br> <small> Department of Chemistry, Gauhati University, Guwahati, Assam</small> </h6>
@@ -110,7 +110,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ranaweera.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Prof. Madhurjya P Bora <br> <small> Department of Physics, &nbsp; Gauhati University, Guwahati, Assam</small> </h6>
@@ -120,7 +120,7 @@
         <div class="col s12 m3">
           <div class="card-panel hoverable speaker-item">
               <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ranaweera.jpg') }}">
+                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
               </div>
               <div class="center">
                   <h6>Apollo Tyres<br> <small> Something ..</small> </h6>
@@ -454,7 +454,7 @@
                       <p>
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/clara.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Dr. H Kharkwal</span><br>
@@ -466,7 +466,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/ranaweera.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. Bhupendra Nath Goswami</span><br>
@@ -478,7 +478,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/rodolf.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. Suman Chakraborty</span><br>
@@ -490,7 +490,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/ibohal.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. Nikhil Kumar Singha </span><br>
@@ -502,7 +502,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/mezban.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. Uday Shanker Dixit</span><br>
@@ -514,7 +514,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/hosamani.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. S N Naik </span><br>
@@ -526,7 +526,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/manojk.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. B K Das </span><br>
@@ -538,7 +538,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/chandel.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Prof. Madhurjya P Bora</span><br>
@@ -550,7 +550,7 @@
 
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
-                              <span><img src="{{ asset('images/dhoj.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
                             </div>
                             <div class="col s9">
                               <span class="s-name orange-text">Apollo Tyres</span><br>
@@ -572,31 +572,55 @@
                           </div>
                             <span class="card-title">CALL FOR PAPER-AUTHOR GUIDELINES</span>
                             <div class="divider"></div>
-                            <p class="green-text">The organizing committee invites you to submit a research paper original works in English not more than 8000 words including Abstract of 300 words and maximum of 7 Key Words in (.doc or .docx) format.</p>
-                            <p class="header">AREAS OF PRESENTATIONS MAY BE:</p>
+                            <h5 class="header">Abstracts Submission Guidelines</h5>
+                            <div class="teal-text text-justified">
+                              The abstract of paper (not exceeding 200 words), can be submitted to the address <span class="chip">“ASSET 2018”,
+                              CIT Kokrajhar, BTAD, Assam 783370</span> by <span class="black-text"><strong>31st December 2017</span></strong> or to the email id
+                              <span class="black-text"><strong class="chip">asset.2k18@gmail.com</strong></span>, The authors are requested to submit their abstract in the prescribed
+                              format and in <span class="black-text">Times New Roman font size 12</span>, abstract tittle <span class="black-text">font 14 bold</span>. An author can
+                              submit up to a maximum of three paper, including papers having more than one author. All
+                              abstracts submitted for presentation will be screened. Authors whose papers are accepted
+                              will be informed at the earliest by the committee. The decision of the organising committee
+                              for the acceptance/rejection will be final.
+                            </div>
+                            <div class="">
+                              <ul>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Title - A concise and informative title</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> The name of the author and affiliation</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> The e-mail address of the corresponding author</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Keywords: Provide 3-5 keywords in an alphabetical order</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> One copy passport size photo</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Bibliography of the author</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Presenter author must mark (*)</li>
+                              </ul>
+                            </div>
                             <p class="light">
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Application of innovative ideas in the library<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Best Practices in the library<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Development of Information and Knowledge Services<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Electronic resource management<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Impact of ICTS in librarianship<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Institutional repositories<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Knowledge networking and consortia<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Library automation<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Library design<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Library management (human resources, finance, materials and operations)<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Library orientation/information literacy in the digital age<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> LIS Education, Research and Training<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Marketing of library and information services and products<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Mobile applications in the library<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Preparing Library for Tomorrow<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Resource sharing and its feasibility<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Technology & Innovations in Libraries and Impact Measurement<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Technology applications in libraries<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> Users and their information seeking behavior<br>
-                            <span class="red-text"><i class="fa fa-circle"></i></span> And any other relevant area related library and information services
+                              <h5 class="header">Areas or topics of paper</h5>
+                              <div class="row">
+                                <div class="light col s12 m6">
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Material Science and Technology<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Theoretical and Applied Physics<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Renewable Energy and Technology<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Life Sciences and Bioengineering<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Waste Management<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Nano Science and Technology<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Green Technology<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Organic Synthesis<br>
+                                </div>
+
+                                <div class="light col s12 m6">
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Sustainable Technology and Development<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Mathematics in Applied Sciences<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Food Engineering and Technology<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Information Technology<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Measurements and Control<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Multi-media Communication &amp; Design<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Earth and Atmospheric Science<br>
+                                </div>
+                              </div>
                             <div class="divider"></div>
-                            <p class="green-text">Accepted Article/ Manuscript will be published in the Pre-Conference Proceeding.</p>
+
+                            <p class="green-text">All accepted full papers will be published in the conference proceedings or UGC journal with ISBN number.</p>
                         </div>
                     </div>
                     <!-- /Call For Paper -->
@@ -606,9 +630,7 @@
                       <div class="card-content tab-content">
                           <span class="card-title">PAPER SUBMISSION</span>
                           <div class="divider"></div>
-                          <p>You can submit your paper through an email (ictl@cit.ac.in) or through our upload form.
-                            Paper should be in only <strong>(.doc or .docx)</strong> format.
-                          <br><a href="{{ url('submission') }}" class="btn blue lighten-2 white-text">submit</a></p>
+                          <p>You can submit your paper through an email <strong class="chip">asset.2k18@gmail.com</strong>.
 
                       </div>
                     </div>
@@ -621,16 +643,51 @@
                           <div class="divider"></div>
                           <p class="light">
                             Registration can be done online or offline.<br>
-                            <span><strong>1. Online Mode</strong> Go to registration page <a class="white-text" href="{{ url('registration') }}">(Register)</a>. Proceed with Fees Payment - (Netbanking/Debit Card/Credit Card).</span>
+                            <span><strong>1. Online Mode</strong>
+                              Go to registration page
+                              <a class="white-text" href="{{ route('events.registration') }}">(Register)</a>.
+                               Proceed with Fees Payment - (Netbanking/Debit Card/Credit Card).</span>
                             <br>
-                            <span><strong>2. Offline Mode</strong> Download registration form from <a class="white-text" href="{{ asset('registrationfom.pdf') }}">(Offline Register Form)</a>. Draft Demand Draft in favour of "CIT Kokrajhar". And send soft copy of the filled registration form along with (Payment Slip) to <span class="white-text">(ictl@cit.ac.in).</span></span>
+                            <span><strong>2. Offline Mode</strong>
+                              Download registration form from
+                              <a class="white-text" href="{{ asset('uploads/RegistrationForm.docx') }}">(Offline Register Form)</a>.
+                              (D/D, Cheque should be made in favour of ASSET 2018, CIT Kokrajhar payable at SBI, BTC Branch, Kokrajhar, Assam).
+                              Send filled in registration form to <span class="chip">asset.2k18@gmail.com in.</span>
+                            </span>
                           </p>
-                          <p class="white-text">Fees<br>
-                            <u>Students/ Research Scholars/ Retd. Persons</u> (Indian) <strong><span class="WebRupee"> Rs</span>2000 INR</strong> (Foreigner) <strong>$100 USD</strong> <br> <u>Working Professionals</u> (Indian) <strong><span class="WebRupee"> Rs</span>2500 INR</strong> (Foreigner) <strong>$150 USD</strong></p>
-                          <br><span class="white-text">Proceed to </span>
-                          <a href="{{ url('registration') }}" class="btn blue lighten-2">Registration</a>&nbsp;&nbsp;
-                          <a href="{{ url('uploads/registrationform.pdf') }}" class="btn blue lighten-2">Download Form</a>
 
+                          <p class="white-text">Registration Fees</p>
+                          <ul class="registration-fee">
+                            <li>
+                              <span>1. Students (CIT &amp; BU) only</span>
+                              <span class="white-text"><strong>(Early Bird)</strong> <u>Rs 1000/- INR</u></span>
+                              <span class="white-text"><strong>(Late)</strong> <u>Rs 1500/- INR</u></span>
+                            </li>
+
+                            <li>
+                              <span>2. Researcher</span>
+                              <span class="white-text"><strong>(Early Bird)</strong> <u>Rs 2000/- INR</u></span>
+                              <span class="white-text"><strong>(Late)</strong> <u>Rs 2500/- INR</u></span>
+                            </li>
+
+                            <li>
+                              <span>3. Academician</span>
+                              <span class="white-text"><strong>(Early Bird)</strong> <u>Rs 3000/- INR</u></span>
+                              <span class="white-text"><strong>(Late)</strong> <u>Rs 3500/- INR</u></span>
+                            </li>
+
+                            <li>
+                              <span>4. Corporation/Industry</span>
+                              <span class="white-text"><strong>(Early Bird)</strong> <u>Rs 4500/- INR</u></span>
+                              <span class="white-text"><strong>(Late)</strong> <u>Rs 5000/- INR</u></span>
+                            </li>
+                          </ul>
+
+                          <br><span class="white-text">Proceed to </span>
+                          <a href="{{ route('events.registration') }}" class="btn blue lighten-2">Registration</a>&nbsp;&nbsp;
+                          <a href="{{ asset('uploads/RegistrationForm.docx') }}" class="btn blue lighten-2">Download Form</a>
+
+                          {{--
                           <br>
                           <br>
                           <div class="">
@@ -641,7 +698,7 @@
                             </span>
                             <div class="divider"></div>
                             <span class="">Accommodation can also be arranged by us on your own expense. Please Contact Us.</span>
-                          </div>
+                          </div> --}}
                       </div>
                     </div>
                     <!-- /Registration -->
@@ -716,8 +773,8 @@
 @endsection
 
 @section('scripts')
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="{{ asset('js/owl.carousel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/swiper.min.js') }}"></script>
     <script type="text/javascript">
       //Carousel
       //$('.carousel.carousel-slider').carousel({fullWidth: true, duration: 200, dist: -20, indicators: true});

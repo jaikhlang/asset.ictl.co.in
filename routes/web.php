@@ -11,8 +11,12 @@ Route::get('/asset-call-for-paper', 'PageController@paper')->name('pages.paper')
 Route::get('/events-asset-organising-committee', 'PageController@committee')->name('events.committee');
 //About Asset 18
 Route::get('/know-more-about-conference-asset', 'PageController@knowAsset')->name('abouts.asset');
+//Contact
+Route::get('/events-asset-conference-contact', 'PageController@contact')->name('abouts.contact');
 //About
 Route::get('/events-about-conference-venue', 'PageController@knowAbout')->name('abouts.about');
+//About
+Route::get('/events-asset-conference-sponsor', 'PageController@sponsor')->name('events.sponsor');
 
 Route::prefix('participation')->group(function(){
   //Registration Page

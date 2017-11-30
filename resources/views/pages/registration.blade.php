@@ -25,6 +25,11 @@
                         {{ method_field('POST') }}
                         {{ csrf_field() }}
 
+
+                        <label for="name">Full Name (Delegate Name)</label>
+                        <input name="name" value="{{ Auth::user()->name }}" id="name" placeholder="Delegate Name" type="text"  class="validate" required/>
+
+
                         <!-- Select Category Type -->
                         <label for="participant-category">Select Category</label>
                         <div id="participant-category" class="participant-category">
@@ -49,11 +54,6 @@
                             </span>
                         </div><br>
                         <!-- /End of Select Category Type -->
-
-
-                          <label for="name">Full Name (Delegate Name)</label>
-                          <input name="name" id="name" placeholder="Delegate Name" type="text"  class="validate" required/>
-
 
 
                           <label for="designation">Designation</label>
@@ -82,7 +82,7 @@
 
 
                         <label for="email">Email</label>
-                        <input name="email" id="email" placeholder="Email" type="text" class="validate" required/>
+                        <input name="email" value="{{ Auth::user()->email }}" id="email" placeholder="Email" type="text" class="validate" required/>
 
                         <label for="phone">Phone</label>
                         <input name="phone" id="phone" placeholder="Phone Number" type="text" class="validate" required/>
