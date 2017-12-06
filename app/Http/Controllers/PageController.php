@@ -19,9 +19,7 @@ class PageController extends Controller
 
     //Registration Page
     public function registration(){
-      //Find the user
-      //$user = Auth::user();
-      return view('pages.registration');//->withUser($user);
+      return view('pages.registration');
     }
 
     //Committee Page

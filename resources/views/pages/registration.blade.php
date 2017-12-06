@@ -5,7 +5,6 @@
 @section('styles')
   <link href="{{ asset("css/owl.carousel.css") }}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{ asset("css/swiper.min.css") }}" type="text/css" rel="stylesheet" media="screen,projection"/>
-
 @endsection
 
 @section('content')
@@ -13,22 +12,26 @@
   <section id="participant-registration" class="grey lighten-3">
       <div class="container">
           <div class="row">
-              <div class="col s12 m12 center red-text" style="padding-bottom: 1.5rem;">
-                <span>Both Online and Offline modes are available for registration.</span>
+              <div class="col s12 m12 center" style="padding-bottom: 1.5rem;">
+                <span class="blue-text">Both Online and Offline modes are available for registration.</span>
+                @if(Auth::check())
+                  <span>You have already submitted!! Proceed with payment if not done.</span>
+                @endif
+
               </div>
 
               <div class="col s12 m8">
                   <div class="card-panel white lighten-5 z-depth-1">
                       <h5>Registration <small class="grey-text text-lighten-2">(Online)</small></h5>
 
-                      <form class="" action="{{ route('registrations.participant') }}" method="POST" enctype="multipart/form-data">
+                        <form class="" action="{{ route('registrations.participant') }}" method="POST" enctype="multipart/form-data">
+
                         {{ method_field('POST') }}
                         {{ csrf_field() }}
 
 
                         <label for="name">Full Name (Delegate Name)</label>
                         <input name="name" value="" id="name" placeholder="Delegate Name" type="text"  class="validate" required/>
-
 
                         <!-- Select Category Type -->
                         <label for="participant-category">Select Category</label>
@@ -90,7 +93,9 @@
                         <label for="paper">Paper Title (if presenting a paper)</label>
                         <input  id="paper" type="text" name="paper" placeholder="Levae blank if not presenting." class="">
 
-                        <br>
+                        <label for="password">Set Password (10 characters only)</label>
+                        <input name="password" id="password" type="password" class="validate" required/>
+                        <p class="red-text light">All the fields are required.</p><br>
                         <button class="btn waves-effect blue waves-blue">Register Now</button>
                         <!--button type="button" class="btn waves-effect blue waves-blue" onclick="serviceUnavailable()">Register Now</button>
                         <span class="red-text" id="warningMsg"></span-->
@@ -99,7 +104,7 @@
               </div>
 
               <div class="col s12 m4">
-                <div class="card-panel white lighten-5 z-depth-1">
+                <div class="card-panel white lighten-5 z-depth-0">
                     <h5>Registration Guidelines</h5>
                     <p><span class="red-text"><i class="fa fa-circle-o"></i></span> Registration Fee </p>
                     <ul class="registration-fee">
@@ -135,6 +140,11 @@
                   <span class="white-text"> proceed to </span>
                   <a href="{{ url('submission') }}" class="btn waves-effect blue wave-blue">Submission</a>
                 </div> --}}
+                <div class="transparent  center">
+                    <span>
+                    <a href="{{ route('payments.billing') }}" class="btn large blue" style="width: 100%">Pay Now</a>
+                  </span>
+                </div>
 
                 <div class="card-panel indigo lighten-1 center">
                     <span>
@@ -149,7 +159,7 @@
 
                   <div class="center" style="padding: 2rem 0;"><span class="grey-text">Or Register Offline</span></div>
 
-                  <div class="card-panel white lighten-3">
+                  <div class="card-panel z-depth-0 white lighten-3">
                     <h5>How To Register Offline.</h5>
                       <p>1. Download Registration From Here <a href="{{ asset('uploads/RegistrationForm.docx') }}">(Offline) Registration Form.</a></p>
                       <p>2. Fill in all the details required and affix passport size photograph.</p>
@@ -172,7 +182,7 @@
               </div>
 
               <div class="col s12 m12 center">
-                  <p class="grey-text light"> For any difficulties/broken links/errors kindly report us at ictl@cit.ac.in.</p>
+                  <p class="grey-text text-darken-2 light"> For any difficulties/broken links/errors kindly report us at ictl@cit.ac.in.</p>
               </div>
           </div>
       </div>

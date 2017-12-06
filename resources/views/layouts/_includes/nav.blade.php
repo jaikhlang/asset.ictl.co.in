@@ -1,5 +1,5 @@
-<div class="">
-  <nav id="nav" class="z-depth-0 white" role="navigation">
+<div class="navbar-fixed">
+  <nav id="nav" class="z-depth-1 white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="{{ url('/') }}" class="brand-logo white-text"><img class="hide-on-small-only" style="margin-right: .5rem;" src="{{ asset('image/logo.png') }}" alt="">
         <span class="brand-text light text-darken-1">asset<small>2018</small></span></a>
@@ -18,7 +18,7 @@
           Sponsorship</a></li>
       @guest
         <li><a class="urse-sign-text grey-text text-darken-1" href="{{ route('login') }}">Login</a></li>
-        <li><a class="urse-sign-text grey-text text-darken-1" href="{{ route('register') }}">Register</a></li>
+        {{--<li><a class="urse-sign-text grey-text text-darken-1" href="{{ route('register') }}">Register</a></li>--}}
       @else
         <li id="userDropList">
           <a class="grey-text text-darken-1 navbar-user-dropdown" href="#!" data-activates="userdropdown">

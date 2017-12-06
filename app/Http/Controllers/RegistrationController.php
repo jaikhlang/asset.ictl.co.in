@@ -4,10 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use App\Role;
 use Auth;
 use Image;
-use Seeion;
+use Session;
 use Storage;
+use Hash;
 
 class RegistrationController extends Controller
 {
@@ -25,9 +27,9 @@ class RegistrationController extends Controller
           'paper' => 'max:255',
       ]);
 
-      $user = Auth::user();
-      $participant = User::find($user->id);
-      $participant->group = $request->group;
+      $participant = new User;
+
+      $participant->category = $request->group;
       $participant->name = $request->name;
       $participant->designation = $request->designation;
       $participant->organisation = $request->organisation;
@@ -50,11 +52,32 @@ class RegistrationController extends Controller
           Storage::delete($oldFilename);
       }
 
-      //$request->session()->put('participant', $participant);
-      dd($participant);
+      if ($request->has('password') && !empty($request->password)) {
+        $password = trim($request->password);
+      }else{
+        //Set the manual password
+
+        $length = 10;
+        $keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWZYZ';
+        $str = '';
+        $max = mb_strlen($keyspace, '8bit') - 1;
+        for ($i = 0; $i <$length; ++$i) {
+          $str .= $keyspace[random_int(0, $max)];
+        }
+        $password = $str;
+      }
+      $participant->password = Hash::make($password);
+      $request->session()->put('participant', $participant);
+
       if($participant->save()){
-        Session::flash('message', 'You have successfully applied for the conference.');
-        return redirect()->route('payments.billing');
+        $role = Role::where('name', 'participant')->first();
+        $participant->attachRole($role);
+
+        if(Auth::attempt(['email' => $participant->email, 'password' => $password])){
+          Session::flash('message', 'Application successfully submitted. Proceed with payment.')
+          return redirect()->route('payments.billing');
+        }
       }
     }
+
 }

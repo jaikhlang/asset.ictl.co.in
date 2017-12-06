@@ -282,6 +282,19 @@ nav{
   }
 }
 
+//Billing Information
+#billing-form{
+  overflow: hidden;
+  padding: 3rem 0;
+}
+
+.details-provided{
+  span{
+    display: block;
+  }
+}
+
+
 //Navbar
 .dropdown-content{
   top: 67px!important;

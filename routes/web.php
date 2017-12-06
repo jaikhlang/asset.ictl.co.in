@@ -23,8 +23,10 @@ Route::prefix('participation')->group(function(){
   Route::get('/event-asset-registration', 'PageController@registration')->name('events.registration');
   //Registration Form Submit
   Route::post('/event-asset-registration', 'RegistrationController@registerSubmit')->name('registrations.participant');
-  //Instamojo Billing
+  //Instamojo Billing Prepare
   Route::get('/event-payment-billing', 'PaymentController@billingInfo')->name('payments.billing');
+  //Instamojo Payment Parameters
+  Route::post('/event-payment-billing', 'PaymentController@payNow')->name('payments.pay');
 });
 
 //Auth Home

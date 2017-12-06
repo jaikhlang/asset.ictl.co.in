@@ -13183,6 +13183,15 @@ nav {
   background: rgba(0, 0, 0, 0.09);
 }
 
+#billing-form {
+  overflow: hidden;
+  padding: 3rem 0;
+}
+
+.details-provided span {
+  display: block;
+}
+
 .dropdown-content {
   top: 67px !important;
   min-width: 130px !important;
