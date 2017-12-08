@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Softon\Indipay\Facades\Indipay;
 use Auth;
 use App\User;
+use Session;
+use App\Payment;
 
 class PaymentController extends Controller
 {
@@ -36,11 +38,11 @@ class PaymentController extends Controller
 
     //Post Payment
     public function payNow(Request $request){
-      dd($request);
+      //dd($request);
       $user = Auth::user();
       $user = User::find($user->id);
       $user->fee = $request->fee;
-      
+
       $parameters = [
       //'txnid' => time().rand(11,99),
       'purpose' => 'ASSET 2018 Registration Fees',
@@ -67,7 +69,11 @@ class PaymentController extends Controller
           $paymentDetails = $response->payment_request;
           $paidDetails = $paymentDetails->payment;
 
+            $user = Auth::user();
+            $user = User::find($user->id);
+
             $payment = new Payment;
+            $payment->user_id = $user->id;
             $payment->name = $paidDetails->buyer_name;
             $payment->email = $paidDetails->buyer_email;
             $payment->phone = $paidDetails->buyer_phone;
@@ -75,25 +81,37 @@ class PaymentController extends Controller
             $payment->payment_id = $paidDetails->payment_id;
             $payment->currency = $paidDetails->currency;
             $payment->amount = $paidDetails->amount;
-            $payment->fees = $paidDetails->fees;
 
-            $payment->save();
+            //Gateway fee
+            $payment->gateway_fees = $paidDetails->fees;
 
-            $participant = new Participant;
-            $participant = Session::get('participant');
-            $participant->payment_request_id = $paymentDetails->id;
+            if($payment->save()){
+                $user->payment_request_id = $paymentDetails->id;
+                $user->payment = "paid";
+                $user->payment()->associate($payment);
+                $user->save();
+                $paymentRequestId = $user->payment_request_id;
+                return redirect()->route('registration.success', $paymentRequestId);
+            }
 
-            $participant->payment()->associate($payment);
-            $participant->save();
-
-            $paymentRequestId = $participant->payment_request_id;
-
-            Session::forget('participant');
-            return redirect()->route('registration.success', $paymentRequestId);
         }
         else{
-            Session::forget('participant');
-            return redirect()->route('registration.failed');
+            Session::flash('message', 'Registration Failed due to Payment Failure!');
+            return redirect()->route('payments.pay');
+            //return redirect()->route('registration.failed');
         }
+    }
+
+
+    //Print Invoice
+    public function printInvoice(){
+      if(Auth::check()){
+        $user = Auth::user();
+        //dd($user);
+        $payment = Payment::where('id', $user->payment_id)->first();
+
+        return view('prints.invoice')->withPayment($payment);
+      }
+      return redirect()->route('login');
     }
 }

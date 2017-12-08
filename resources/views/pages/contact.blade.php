@@ -55,21 +55,31 @@
               <span class="valign-wrapper">
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
                 <span itemprop="telephone" class="card blue-text" style="padding: 0.6rem">
+                  <span class="grey-text">(Convenor)</span><br>
                   <span class="grey-text text-darken-1">Dr. Pranjal Kalita</span>
-                  <br>+918447294108 (Convenor)
+                  <br>+918447294108
                   <br>p.kalita@cit.ac.in</span>
                 &nbsp;&nbsp;
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
                 <span itemprop="telephone" class="card blue-text" style="padding: 0.6rem">
+                  <span class="grey-text">(Convenor)</span><br>
                   <span class="grey-text text-darken-1">Dr. Dhrubajyoti Haloi</span>
-                  <br>+917896777085 (Convenor)
+                  <br>+917896777085
                   <br>dhruba2k3@gmail.com</span>
                 &nbsp;&nbsp;
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
                 <span itemprop="telephone" class="card blue-text" style="padding: 0.6rem">
+                  <span class="grey-text">(Co-Convenor)</span><br>
                   <span class="grey-text text-darken-1">Dr. Manasi Buzar Baruah</span>
-                  <br>+919435120216 (Assistant Convenor)
+                  <br>+919435120216
                   <br>mbbaruah@cit.ac.in</span>
+                &nbsp;&nbsp;
+                <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
+                <span itemprop="telephone" class="card blue-text" style="padding: 0.6rem">
+                  <span class="grey-text">(Co-Convenor)</span><br>
+                  <span class="grey-text text-darken-1">Dr. Ananta Swargayari</span>
+                  <br>+919854050781
+                  <br>ananbuzoo101@gmail.com</span>
               </span>
             </div>
           </div>

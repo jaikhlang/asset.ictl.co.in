@@ -94,14 +94,45 @@
 
           <div class="clearfix"></div>
 
-          <h5 class="center committee-header">Organising Committee</h5>
+          <h5 class="center committee-header">Members, Organising Committee</h5>
           <div class="col s12 m12 grey lighten-3">
+
             <div class="col s12 m6">
               <ul class="organising-list">
+                <li><strong class="teal-text text-darken-3">ASSAM SCIENCE SOCIETY</strong></li>
+                <li><strong>Prof. Soneswar Sarma</strong>
+                  <span>Assam Science Society</span></li>
+                <li><strong>Prof. Mohan Ch. Kalita</strong>
+                  <span>Assam Science Society</span></li>
+                <li><strong>Prof. Dhireswar Kalita</strong>
+                  <span>Assam Science Society</span></li>
+                <li><strong>Mr. Pradip Neog</strong>
+                  <span>Assam Science Society</span></li>
+              </ul>
+            </div>
+            <div class="col s12 m6">
+              <ul class="organising-list">
+                <li>&nbsp;</li>
+                <li><strong>Mr. Jaideep Baruah</strong>
+                  <span>Assam Science Society</span></li>
+                <li><strong>Dr. Dwijen Kalita</strong>
+                  <span>Assam Science Society</span></li>
+                <li><strong>Prof. Suresh Deka</strong>
+                  <span>Assam Science Society</span></li>
+              </ul>
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="divider"></div>
+            <div class="col s12 m6">
+              <ul class="organising-list">
+                <li><strong class="teal-text text-darken-3">CIT KOKRAJHAR ASSAM</strong></li>
                 <li><strong>Dr. Gunajyoti Das</strong>
                   <span>Asstt. Prof, Dept. of Chemistry, CIT Kokrajhar</span></li>
                 <li><strong>Dr. Aranendu Mondal</strong>
                   <span>Asso. Prof, Dept. of Chemistry, CIT Kokrajhar</span></li>
+                <li><strong>Mrs. Anamika Kalita</strong>
+                  <span>Asst. Prof, Dept. of Chemistry, CIT Kokrajhar</span></li>
                 <li><strong>Dr. Sandeep Kr Srivastava</strong>
                   <span>HoD &amp; Dean of R &amp; D, Asso. Prof, Dept of Physics, CIT Kokrajhar</span></li>
                 <li><strong>Mr. A. Alvis Basumatary</strong>
@@ -112,7 +143,7 @@
                   <span>HoD, Asstt. Prof, Computer Science and Engineering, CIT Kokrajhar</span></li>
                 <li><strong>Mr. Jeet Dutta</strong>
                   <span>HoD, Asstt. Prof, Dept. of Instrumentation Engineering, CIT Kokrajhar</span></li>
-                <li><strong>Mr. Abhijit Das</strong>
+                <li><strong>Mr. Anuck Islary</strong>
                   <span>Asstt. Prof, Dept. of Food Processing Engineering, CIT Kokrajhar</span></li>
                 <li><strong>Mr. J D H Basumatary</strong>
                   <span>Dean of Student Affairs,Asstt. Prof, Dept. of Humanities &amp; Social Sciences, CIT Kokrajhar</span></li>
@@ -122,7 +153,7 @@
             </div>
             <div class="col s12 m6">
               <ul class="organising-list">
-
+                <li><strong class="teal-text text-darken-3">BODOLAND UNIVERSITY ASSAM</strong></li>
                 <li><strong>Dr. Jatin Sarmah</strong>
                   <span>Asso. Prof, Dept. of Biotechnology, BU</span></li>
                 <li><strong>Dr. Sandeep Das</strong>
@@ -141,6 +172,8 @@
                   <span>Asstt. Prof. Dept. of Computer Science and Technology, BU</span></li>
                 <li><strong>Dr. Kangujam Priyokumar Singh</strong>
                   <span>Asso. Prof. Dept. of Mathematical Sciences, BU</span></li>
+                <li><strong>Mr. Hem Chandra Das</strong>
+                  <span>Asstt. Prof. Dept. of Computer Science &amp; Technology, BU</span></li>
               </ul>
             </div>
           </div>

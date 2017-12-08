@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Auth;
+use App\User;
+use App\Payment;
 
 class PageController extends Controller
 {
@@ -19,6 +21,14 @@ class PageController extends Controller
 
     //Registration Page
     public function registration(){
+      if(Auth::check()){
+        $user = Auth::user();
+        if($user->payment == 'paid'){
+          $request_id = $user->payment_request_id;
+          return redirect()->route('registration.success', $request_id);
+        }
+        return redirect()->route('payments.pay');
+      }
       return view('pages.registration');
     }
 

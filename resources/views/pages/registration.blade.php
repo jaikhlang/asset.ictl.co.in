@@ -13,7 +13,7 @@
       <div class="container">
           <div class="row">
               <div class="col s12 m12 center" style="padding-bottom: 1.5rem;">
-                <span class="blue-text">Both Online and Offline modes are available for registration.</span>
+                <span class="blue-text">Currently only Offline modes is available for registration.</span>
                 @if(Auth::check())
                   <span>You have already submitted!! Proceed with payment if not done.</span>
                 @endif

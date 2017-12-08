@@ -23,6 +23,7 @@ class CreatePaymentsTable extends Migration
             $table->string('payment_id');
             $table->string('currency');
             $table->string('amount');
+            $table->string('gateway_fees');
             $table->timestamps();
         });
     }

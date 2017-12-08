@@ -28,6 +28,9 @@ Route::prefix('participation')->group(function(){
   //Instamojo Payment Parameters
   Route::post('/event-payment-billing', 'PaymentController@payNow')->name('payments.pay');
 });
+Route::get('indipay/response','PaymentController@response')->name('payments.response');
+Route::get('successfully-registered/{id}','RegistrationController@success')->name('registration.success');
+Route::get('registered-payment-invoice', 'PaymentController@printInvoice')->name('print.invoice');
 
 //Auth Home
 Route::get('/home', 'HomeController@index')->name('home');

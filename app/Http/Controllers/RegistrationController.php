@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use App\Role;
+use App\Payment;
 use Auth;
 use Image;
 use Session;
@@ -74,10 +75,16 @@ class RegistrationController extends Controller
         $participant->attachRole($role);
 
         if(Auth::attempt(['email' => $participant->email, 'password' => $password])){
-          Session::flash('message', 'Application successfully submitted. Proceed with payment.')
+          Session::flash('message', 'Application successfully submitted. Proceed with payment.');
           return redirect()->route('payments.billing');
         }
       }
+    }
+
+    public function success($id){
+      $payment = Payment::get()->where('request_id', $id)->first();
+      $user = $payment->user;
+      return view('payments.success')->withUser($user);
     }
 
 }

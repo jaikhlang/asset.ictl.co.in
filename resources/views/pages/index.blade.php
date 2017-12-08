@@ -25,7 +25,7 @@
   <section class="page-carousel">
     <div class="carousel carousel-slider center" data-indicators="true">
       <div class="carousel-fixed-item container">
-        <a class="btn waves-effect red white-text darken-text-2 left hide-on-med-and-down" style="text-transform: unset!important;">Register Now!</a>
+        <a href="{{ route('events.registration') }}" class="btn waves-effect red white-text darken-text-2 left hide-on-med-and-down" style="text-transform: unset!important;">Register Now!</a>
       </div>
       <div class="carousel-item red white-text" href="#one!">
         <img src="{{ asset('image/banner/s-2.jpg') }}" alt="">
@@ -136,229 +136,6 @@
     </div>
   </section>
 
-  {{--
-  <section id="speakers" class="">
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m12">
-              <!-- SECTION TITLE -->
-              <div class="white-text">
-                  <h5 class="">Keynote speakers</h5>
-              </div>
-            </div>
-            <div class="col s12 m12 card-panel z-depth-0">
-                <!-- SLIDER STRUCTURE -->
-                <div class="swiper-container" style="margin: 15px;">
-                    <div class="swiper-wrapper">
-                        <!-- SLIDE ONE -->
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ranaweera.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Mr. Prasanna Ranaweera</h5>
-                                    <p>Director, National Institute of Library and Information Sciences (NILIS)</p>
-                                    <cite>University of Colombo, Sri Lanka</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/clara.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Dr. Clara M. Chu</h5>
-                                    <p>Mortenson Distinguished Professor &amp; Director, Mortenson Center for International Library Programs</p>
-                                    <cite>University of Illinois at Urbana-Champaign, USA</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/rodolf.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Jose Rodolfo Hernandez-Carrion</h5>
-                                    <p>Professor Department of Applied Economics</p>
-                                    <cite>University of Valencia Campus dels Tarongers Avenida de los Naranjos s/n Valencia 46022 España-Spain (E.U.)</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/ibohal.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Dr. Ch. Ibohal Singh</h5>
-                                    <p>Prof. Dept. of Library and Information Science.</p>
-                                    <cite>Manipur University, Manipur, India</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/mezban.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Dr. Muhammad Mezbah-ul-Islam</h5>
-                                    <p>Professor &amp; Chairman, Department of Information Science and Library Management</p>
-                                    <cite>University of Dhaka, Bangladesh</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/hosamani.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>H. G. Hosamani</h5>
-                                    <p>Scientist-C (Library Science) INFLIBNET Centre, Gandhinagar</p>
-                                    <cite>Gujarat, India</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/manojk.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Manoj Kumar K</h5>
-                                    <p>Scientist-D (Computer Science), INFLIBNET Centre, Gandhinagar</p>
-                                    <cite>Gujarat, India</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/chandel.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>A. S. Chandel</h5>
-                                    <p>Librarian, Central Library, Sikkim University</p>
-                                    <cite>Sikkim, India</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/rath.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Prof. Pravakar Rath</h5>
-                                    <p>Professor, Department of Information &amp; Library Science, Mizoram University</p>
-                                    <cite>Mizoram, India</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/dappa.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Dr. C R Karisiddappa</h5>
-                                    <p>Emeritus Professor, Karnatak University</p>
-                                    <cite>Dharwad, India</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/dhoj.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Prof. Bhim Dhoj Shrestha</h5>
-                                    <p>Head, Department of Library and Information Science, Tribhuvan University</p>
-                                    <cite>Kathmandu, Nepal</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/upendra.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <h5>Mr. Upendra Prasad Mainali</h5>
-                                    <p>Chief Librarian, (Under Secretary) Nepal National Library</p>
-                                    <cite>Nepal</cite>
-                                </blockquote>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/gohain.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <span class="pink-text">(Rapporteur General)</span>
-                                    <h5>Mr. Hemanta Kumar Gohain</h5>
-                                    <p>Deputy Librarian, Assam Agricultural University, Jorhat, Assam, India</p>
-                                    <!--cite></cite-->
-                                </blockquote>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="">
-                                <!--CLIENT IMAGE-->
-                                <div class="client-img center">
-                                    <img alt="client-image" class="center-block" src="{{ asset('image/speakers/rajani.jpg') }}">
-                                </div>
-                                <!--CLIENT QUOTE-->
-                                <blockquote class="center">
-                                    <span class="pink-text">(Seminar Director)</span>
-                                    <h5>Prof. Rajani Kanta Barman</h5>
-                                    <p>Department of Library &amp; Information Science, Gauhati University, Guwahati-14</p>
-                                    <!--cite></cite-->
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div><br>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
-      </div>
-  </section>
-  --}}
   <!-- Program Details -->
   <!-- Programs -->
   <section id="details" class="grey lighten-3 box-tabs">
@@ -399,8 +176,9 @@
                           <span class="card-title">IMPORTANT DATES</span>
                           <div class="divider"></div>
                           <p>Conference Date: <span><strong> 9th, 10th, &amp; 11th March 2018.</strong></span></p>
-                          <p>Registration /Abstract Submission Deadline: <span><strong> 31st December 2017</strong></span></p>
-                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 10th January 2018</strong></span></p>
+                          <p>Registration Deadline: <span><strong> 31st January 2018</strong></span></p>
+                          <p>Abstract Submission Deadline: <span><strong> 15th January 2017</strong></span></p>
+                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 25th January 2018</strong></span></p>
                       </div>
                     </div>
 
@@ -577,24 +355,16 @@
                             <div class="divider"></div>
                             <h5 class="header">Abstracts Submission Guidelines</h5>
                             <div class="teal-text text-justified">
-                              The abstract of paper (not exceeding 200 words), can be submitted to the address <span class="chip">“ASSET 2018”,
-                              CIT Kokrajhar, BTAD, Assam 783370</span> by <span class="black-text"><strong>31st December 2017</span></strong> or to the email id
-                              <span class="black-text"><strong class="chip">asset.2k18@gmail.com</strong></span>, The authors are requested to submit their abstract in the prescribed
-                              format and in <span class="black-text">Times New Roman font size 12</span>, abstract tittle <span class="black-text">font 14 bold</span>. An author can
-                              submit up to a maximum of three paper, including papers having more than one author. All
-                              abstracts submitted for presentation will be screened. Authors whose papers are accepted
-                              will be informed at the earliest by the committee. The decision of the organising committee
-                              for the acceptance/rejection will be final.
+                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 31 December 2017. The decesion of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                              format.
                             </div>
                             <div class="">
                               <ul>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Title - A concise and informative title</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> The name of the author and affiliation</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> The e-mail address of the corresponding author</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Keywords: Provide 3-5 keywords in an alphabetical order</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> One copy passport size photo</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Bibliography of the author</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Presenter author must mark (*)</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Font Type: Times New Roman</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Title: A concise title with font size 14, Bold</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Author: font size 12, regular</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Affiliation: font size 10, regular</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Email id, phone nummber, one copy passport size photo with biblography and star mark(*) of the corresponding author.</li>
                               </ul>
                             </div>
                             <p class="light">
@@ -605,6 +375,7 @@
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Theoretical and Applied Physics<br>
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Renewable Energy and Technology<br>
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Life Sciences and Bioengineering<br>
+                                  <span class="red-text"><i class="fa fa-circle"></i></span> Computational Science<br>
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Waste Management<br>
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Nano Science and Technology<br>
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Green Technology<br>
@@ -745,13 +516,16 @@
             <div class="convenor-contact">
               <span class="valign-wrapper">
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
-                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">Dr. Pranjal Kalita</span> <br>+918447294108 (Convenor)</span>
+                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">(Convenor)<br>Dr. Pranjal Kalita</span> <br>+918447294108 </span>
                 &nbsp;&nbsp;
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
-                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">Dr. Dhrubajyoti Haloi</span> <br>+917896777085 (Convenor)</span>
+                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">(Convenor)<br>Dr. Dhrubajyoti Haloi</span> <br>+917896777085 </span>
                 &nbsp;&nbsp;
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
-                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">Dr. Manasi Buzar Baruah</span> <br>+919435120216 (Assistant Convenor)</span>
+                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">(Co-Convenor)<br>Dr. Manasi Buzar Baruah</span> <br>+919435120216</span>
+                &nbsp;&nbsp;
+                <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
+                <span itemprop="telephone" class="blue-text"> <span class="grey-text text-darken-1">(Co-Convenor)<br>Dr. Ananta Swargayari</span> <br>+919854050781</span>
               </span>
             </div>
           </div>

@@ -29,7 +29,7 @@
 
       <!-- Dropdown Structure -->
       <ul id="userdropdown" class="dropdown-content">
-        <li><a href="#!">Conference Registration</a></li>
+        <!--li><a href="#!">Conference Registration</a></li-->
         <li class="divider"></li>
         <li><a href="{{ route('logout') }}"
             onclick="event.preventDefault();

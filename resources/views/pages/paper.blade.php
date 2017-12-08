@@ -47,6 +47,7 @@
                           <span class="red-text"><i class="fa fa-circle"></i></span> Theoretical and Applied Physics<br>
                           <span class="red-text"><i class="fa fa-circle"></i></span> Renewable Energy and Technology<br>
                           <span class="red-text"><i class="fa fa-circle"></i></span> Life Sciences and Bioengineering<br>
+                          <span class="red-text"><i class="fa fa-circle"></i></span> Computational Science<br>
                           <span class="red-text"><i class="fa fa-circle"></i></span> Waste Management<br>
                           <span class="red-text"><i class="fa fa-circle"></i></span> Nano Science and Technology<br>
                           <span class="red-text"><i class="fa fa-circle"></i></span> Green Technology<br>
@@ -67,25 +68,17 @@
                       <div class="divider"></div>
                       <h5 class="header">Abstracts Submission Guidelines</h5>
                       <div class="teal-text text-justified">
-                        The abstract of paper (not exceeding 200 words), can be submitted to the address <span class="chip">“ASSET 2018”,
-                        CIT Kokrajhar, BTAD, Assam 783370</span> by <span class="black-text"><strong>31st December 2017</span></strong> or to the email id
-                        <span class="black-text"><strong class="chip">asset.2k18@gmail.com</strong></span>, The authors are requested to submit their abstract in the prescribed
-                        format and in <span class="black-text">Times New Roman font size 12</span>, abstract tittle <span class="black-text">font 14 bold</span>. An author can
-                        submit up to a maximum of three paper, including papers having more than one author. All
-                        abstracts submitted for presentation will be screened. Authors whose papers are accepted
-                        will be informed at the earliest by the committee. The decision of the organising committee
-                        for the acceptance/rejection will be final.
+                        The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 31 December 2017. The decesion of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                        format.
                       </div>
 
                       <div class="">
                         <ul>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Title - A concise and informative title</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> The name of the author and affiliation</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> The e-mail address of the corresponding author</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Keywords: Provide 3-5 keywords in an alphabetical order</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> One copy passport size photo</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Bibliography of the author</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Presenter author must mark (*)</li>
+                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Font Type: Times New Roman</li>
+                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Title: A concise title with font size 14, Bold</li>
+                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Author: font size 12, regular</li>
+                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Affiliation: font size 10, regular</li>
+                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Email id, phone nummber, one copy passport size photo with biblography and star mark(*) of the corresponding author.</li>
                         </ul>
                       </div>
 
@@ -100,8 +93,9 @@
                   -->
                   <div id="submission-guide">
                     <h5></h5>
-                    <p class="teal-text">Registration / abstract submission deadline - <span class="red-text">31st December 2017 </span>
-                      &amp; Paper acceptance letter will be sent (via e-mail) on - <span class="red-text">10th January 2018 </span></p>
+                    <p class="teal-text">Abstract submission deadline - <span class="red-text">15th January 2018 </span><br>
+                      Paper acceptance letter will be sent (via e-mail) on - <span class="red-text">25th January 2018 </span><br>
+                      Registration deadline - <span class="red-text">31st January 2018</span></p>
                   </div>
 
                   <div class="card-panel red white-text lighten-1">
@@ -109,7 +103,7 @@
                   </div>
 
                   <div class="card-panel white">
-                    Poster Size ??
+                    Poster Size: (3x5) feet
                     {{--
                     <p class="red-text">After submission of paper each author must register (Online/Offline).</p>
                     <p class="light">Registration to ICTL17 is simple. You can either register online or offline. For online registration go through <a href="{{ url('http://ictl.co.in/registration') }}"> http://ictl.co.in/registration </a> and for offline registration, download offline registration form from (<a href="{{ asset('uploads/registrationform.pdf') }}">here.</a>) Fill in the forms and send us at ictl@cit.ac.in.</p>
