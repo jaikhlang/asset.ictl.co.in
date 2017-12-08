@@ -115,19 +115,25 @@
                       </li>
 
                       <li>
-                        <span>2. Researcher</span>
+                        <span>2. Students (Other Institute)</span>
+                        <span class="green-text"><strong>(Early Bird)</strong> Rs 1500/- INR</span>
+                        <span class="green-text"><strong>(Late)</strong> Rs 2000/- INR</span>
+                      </li>
+
+                      <li>
+                        <span>3. Researcher</span>
                         <span class="green-text"><strong>(Early Bird)</strong> Rs 2000/- INR</span>
                         <span class="green-text"><strong>(Late)</strong> Rs 2500/- INR</span>
                       </li>
 
                       <li>
-                        <span>3. Academician</span>
+                        <span>4. Academician</span>
                         <span class="green-text"><strong>(Early Bird)</strong> Rs 3000/- INR</span>
                         <span class="green-text"><strong>(Late)</strong> Rs 3500/- INR</span>
                       </li>
 
                       <li>
-                        <span>4. Corporation/Industry</span>
+                        <span>5. Corporation/Industry</span>
                         <span class="green-text"><strong>(Early Bird)</strong> Rs 4500/- INR</span>
                         <span class="green-text"><strong>(Late)</strong> Rs 5000/- INR</span>
                       </li>

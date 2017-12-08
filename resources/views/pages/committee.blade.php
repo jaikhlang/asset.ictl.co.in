@@ -26,14 +26,14 @@
     <div class="container">
       <div class="row">
         <div class="patrons col s12 m12 green card">
-          <div class="col s12 m4 l4">
+          <!--div class="col s12 m4 l4">
             <div class="profile-item white-text center">
               <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
               <span><strong>Chief Patron</strong></span>
               <span>Mr. Kampa Borgoyary, <span class="grey-text text-lighten-3">Deputy Chief, BTC</span></span>
             </div>
-          </div>
-
+          </div-->
+          <div class="col s12 m2"></div>
           <div class="col s12 m4 l4">
             <div class="profile-item white-text center">
               <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
@@ -67,27 +67,23 @@
                   <span>(Professor in Rubber Technology, IIT Kharagpur)</span></li>
                 <li><strong>Prof. Monomoy Goswami</strong>
                   <span>Department of Civil Engineering, CIT Kokrajhar</span></li>
-                <li><strong>Prof. Hemanta Kumar Kalita</strong>
-                  <span>Department of Computer Science and Engineering, CIT Kokrajhar</span></li>
-                <li><strong>Prof. Uday S Dixit</strong>
-                    <span>Department of Mechanical Engineering, IIT Guwahati</span></li>
                 <li><strong>Prof. S N Naik</strong>
                     <span>Department of Center for Rural Development and Technology, IIT Delhi</span></li>
+                <li><strong>Prof. B K Das</strong>
+                  <span>Department of Chemistry, Gauhati University</span></li>
               </ul>
             </div>
 
             <div class="col s12 m6">
               <ul class="advisor-list">
-                <li><strong>Prof. B K Das</strong>
-                  <span>Department of Chemistry, Gauhati University</span></li>
                 <li><strong>Prof. Madhurjya P Bora</strong>
                   <span>Department of Physics, Gauhati University</span></li>
+                <li><strong>Prof. Hemanta Kumar Kalita</strong>
+                  <span>Department of Computer Science and Engineering, CIT Kokrajhar</span></li>
+                <li><strong>Prof. Uday S Dixit</strong>
+                    <span>Department of Mechanical Engineering, IIT Guwahati</span></li>
                 <li><strong>Dr. Arup Kumar Misra</strong>
                   <span>Director, Assam Science Technology &amp; Environment Council, Guwahati</span></li>
-                <li><strong>Dr. N.C Talukdar</strong>
-                  <span>Director, Institute of Advanced Study in Science and Technology, Guwahati</span></li>
-                <li><strong>Prof. Joyanti Chutia</strong>
-                  <span>Former Director, Institute of Advanced Study in Science and Technology, Guwahati</span></li>
                 <li><strong>Dr. B. P. Patro</strong>
                   <span>Director, Central Institute of Plastics Engineering &amp; Technology, Guwahati</span></li>
               </ul>

@@ -24,7 +24,7 @@ Route::prefix('participation')->group(function(){
   //Registration Form Submit
   Route::post('/event-asset-registration', 'RegistrationController@registerSubmit')->name('registrations.participant');
   //Instamojo Billing Prepare
-  Route::get('/event-payment-billing', 'PaymentController@billingInfo')->name('payments.billing');
+  Route::get('/event-payment-billing', 'PaymentController@billingInfo')->name('payments.billing')->middleware('role:participant');
   //Instamojo Payment Parameters
   Route::post('/event-payment-billing', 'PaymentController@payNow')->name('payments.pay');
 });

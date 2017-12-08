@@ -33,6 +33,9 @@
       <div class="carousel-item amber white-text" href="#two!">
         <img src="{{ asset('image/banner/s-1.jpg') }}" alt="">
       </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <img src="{{ asset('image/banner/s-3.jpg') }}" alt="">
+      </div>
     </div>
   </section>
 
@@ -41,7 +44,7 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m12">
-          <h5 class="white-text">Keynote speakers</h5>
+          <h5 class="white-text">Confirmed speakers</h5>
         </div>
 
         <!--Row One Speakers-->
@@ -395,7 +398,7 @@
                       <div class="card-content tab-content white-text">
                           <span class="card-title">IMPORTANT DATES</span>
                           <div class="divider"></div>
-                          <p>Conference Date: <span><strong> 2nd, 3rd, &amp; 4th March 2018.</strong></span></p>
+                          <p>Conference Date: <span><strong> 9th, 10th, &amp; 11th March 2018.</strong></span></p>
                           <p>Registration /Abstract Submission Deadline: <span><strong> 31st December 2017</strong></span></p>
                           <p>Paper Acceptance Letter (via e-mail): <span> <strong> 10th January 2018</strong></span></p>
                       </div>
@@ -450,7 +453,7 @@
                     <!-- Keynote Speakers -->
                     <div id="keynote" class="card-panel white lighten-5 z-depth-0">
                         <div class="card-content tab-content">
-                      <span class="card-title">KEYNOTE SPEAKERS/ INVITED SPEAKERS/ GUESTS </span>
+                      <span class="card-title">CONFIRMED SPEAKERS</span>
                       <p>
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
@@ -662,6 +665,12 @@
                               <span>1. Students (CIT &amp; BU) only</span>
                               <span class="white-text"><strong>(Early Bird)</strong> <u>Rs 1000/- INR</u></span>
                               <span class="white-text"><strong>(Late)</strong> <u>Rs 1500/- INR</u></span>
+                            </li>
+
+                            <li>
+                              <span>1. Students (Other Institute)</span>
+                              <span class="white-text"><strong>(Early Bird)</strong> <u>Rs 1500/- INR</u></span>
+                              <span class="white-text"><strong>(Late)</strong> <u>Rs 2000/- INR</u></span>
                             </li>
 
                             <li>
