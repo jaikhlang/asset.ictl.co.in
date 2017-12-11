@@ -63,29 +63,39 @@
                   <span>Joint Director, Ministry of Environment, Forest and Climate Change Indira Paryavaran Bhawan, New Delhi.</span></li>
                 <li><strong>Prof. Bhupendra Nath Goswami</strong>
                   <span>(Former Director,Indian Institute of Tropical Meteorology (IITM); Shanti Swarup Bhatnagar awardee), Pune</span></li>
+                <li><strong>Prof.Dhiraj Bora</strong>
+                  <span>Vice Chancellor, Assam Science Technical University, Guwahati</span></li>
+                <li><strong>Prof. Khanindra Pathak</strong>
+                  <span>Department of Mining Engineering, IIT Kharagpur</span></li>
+                <li><strong>Prof. S N Naik</strong>
+                  <span>Department of Center for Rural Development and Technology, IIT Kharagpur</span></li>
                 <li><strong>Prof. Nikhil Kumar Singha</strong>
                   <span>(Professor in Rubber Technology, IIT Kharagpur)</span></li>
+                <li><strong>Prof. Dilip Kumar Kakati</strong>
+                  <span>Department of Chemistry, Gauhati University, Guwahati</span></li>
                 <li><strong>Prof. Monomoy Goswami</strong>
                   <span>Department of Civil Engineering, CIT Kokrajhar</span></li>
-                <li><strong>Prof. S N Naik</strong>
-                    <span>Department of Center for Rural Development and Technology, IIT Delhi</span></li>
-                <li><strong>Prof. B K Das</strong>
-                  <span>Department of Chemistry, Gauhati University</span></li>
               </ul>
             </div>
 
             <div class="col s12 m6">
               <ul class="advisor-list">
+                <li><strong>Prof. Hemanta Kumar Kalita</strong>
+                  <span>Department of Computer Science and Engineering, &nbsp; CIT Kokrajhar</span></li>
+                <li><strong>Prof. Uday S Dixit</strong>
+                  <span>Department of Mechanical Engineering, IIT Guwahati</span></li>
+                <li><strong>Prof. Ramesh Ch. Deka</strong>
+                  <span>Department of Chemical Sciences, Tezpur University</span></li>
+                <li><strong>Prof. B K Das</strong>
+                  <span>Department of Chemistry, Gauhati University</span></li>
                 <li><strong>Prof. Madhurjya P Bora</strong>
                   <span>Department of Physics, Gauhati University</span></li>
-                <li><strong>Prof. Hemanta Kumar Kalita</strong>
-                  <span>Department of Computer Science and Engineering, CIT Kokrajhar</span></li>
-                <li><strong>Prof. Uday S Dixit</strong>
-                    <span>Department of Mechanical Engineering, IIT Guwahati</span></li>
                 <li><strong>Dr. Arup Kumar Misra</strong>
                   <span>Director, Assam Science Technology &amp; Environment Council, Guwahati</span></li>
                 <li><strong>Dr. B. P. Patro</strong>
                   <span>Director, Central Institute of Plastics Engineering &amp; Technology, Guwahati</span></li>
+                <li><strong>Prof. Nirmalendu Saha</strong>
+                  <span>Department of Zoology, North Eastern Hills University, &nbsp; Shillong</span></li>
               </ul>
             </div>
 

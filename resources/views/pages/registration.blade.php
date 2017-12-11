@@ -188,7 +188,7 @@
               </div>
 
               <div class="col s12 m12 center">
-                  <p class="grey-text text-darken-2 light"> For any difficulties/broken links/errors kindly report us at ictl@cit.ac.in.</p>
+                  <p class="grey-text text-darken-2 light"> For any difficulties/broken links/errors kindly report us at asset.2k18@gmail.com</p>
               </div>
           </div>
       </div>
