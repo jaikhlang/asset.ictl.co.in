@@ -65,7 +65,7 @@
                   <span class="grey-text">(Convenor)</span><br>
                   <span class="grey-text text-darken-1">Dr. Dhrubajyoti Haloi</span>
                   <br>+917896777085
-                  <br>dhruba2k3@gmail.com</span>
+                  <br>dhruba.2k3@gmail.com</span>
                 &nbsp;&nbsp;
                 <i class="material-icons blue white-text z-depth-1">phone</i> &nbsp;&nbsp;
                 <span itemprop="telephone" class="card blue-text" style="padding: 0.6rem">
