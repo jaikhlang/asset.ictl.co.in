@@ -26,14 +26,26 @@
     <div class="container">
       <div class="row">
         <div class="patrons col s12 m12 green card">
-          <!--div class="col s12 m4 l4">
-            <div class="profile-item white-text center">
-              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
+       
+          <div class=" col s12 m4 l4 center" >
+            <div class="profile-item white-text">
+      
+              &nbsp
+            </div>
+          </div>
+          
+          <div class=" col s12 m4 l4 center" >
+            <div class="profile-item white-text">
+      
+              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%; " alt="Chief Patron Asset 2018">
               <span><strong>Chief Patron</strong></span>
               <span>Mr. Kampa Borgoyary, <span class="grey-text text-lighten-3">Deputy Chief, BTC</span></span>
             </div>
-          </div-->
-          <div class="col s12 m2"></div>
+          </div>
+<div class="clearfix"></div>
+
+
+
           <div class="col s12 m4 l4">
             <div class="profile-item white-text center">
               <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
@@ -42,6 +54,15 @@
             </div>
           </div>
 
+
+          <div class=" col s12 m4 l4 center" >
+            <div class="profile-item white-text">
+      
+              &nbsp
+            </div>
+          </div>
+
+      
           <div class="col s12 m4 l4">
             <div class="profile-item white-text center">
               <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
@@ -50,6 +71,7 @@
             </div>
           </div>
         </div>
+     
 
         <div class="clearfix"></div>
 

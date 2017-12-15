@@ -1,4 +1,3 @@
-
 //Custom Addition
 section{
   overflow: hidden;
@@ -195,26 +194,37 @@ nav{
   padding: 3rem 0 4rem 0;
 }
 
-
 //Committee
 #commitee{
+
   overflow: hidden;
   padding: 3rem 0;
   .patrons{
-    padding: 3rem 0;
+      
+    padding: 10rem 0;
     .profile-item{
+margin:0 auto;
       span{
         display: block;
+        
       }
-    }
-  }
+     }
+}
+
+
+     
+
+
+
   .advisors{
     overflow: hidden;
     color: teal;
+    
     .advisors-header{
-      padding: 1.5rem 0;
+      padding: 3rem 0;
     }
     .advisor-list{
+      
       li{
         margin-top: 1.5rem;
       }
