@@ -31,6 +31,7 @@ Route::prefix('participation')->group(function(){
 Route::get('indipay/response','PaymentController@response')->name('payments.response');
 Route::get('successfully-registered/{id}','RegistrationController@success')->name('registration.success');
 Route::get('registered-payment-invoice', 'PaymentController@printInvoice')->name('print.invoice');
+Route::get('registered-application-show', 'PaymentController@printApplication')->name('print.application');
 
 //Auth Home
 Route::get('/home', 'HomeController@index')->name('home');

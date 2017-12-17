@@ -46,216 +46,194 @@
         <div class="col s12 m12">
           <h5 class="white-text">Confirmed speakers</h5>
         </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
 
-        <!--Row One Speakers-->
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6><br>Dr. Rajeshbabu Ramanujam<br> <small> Appollo Tyres &nbsp;</small><br></h6>
+                    </div>
+                </div>
               </div>
-              <div class="center">
-                  <h6>Dr. H Kharkwal <br><small>Joint Director, <br>MoEF, <br>New Delhi</small></h6>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6><br>Prof. Bhupendra Nath Goswami<br> <small>Former Director, IITM, Pune</small><br></h6>
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6><br>Prof. Uddhab Kumar Bharali<br> <small> UKB Agrotech Guwahati</small><br></h6>
+                    </div>
+                </div>
               </div>
-              <div class="center">
-                  <h6>Prof. Bhupendra Nath Goswami<br> <small>Former Director, IITM, (Shanti Swarup Bhatnagar Awardee),Pune</small></h6>
+              <div class="clearfix"></div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Dhiraj Bora<br><small> ASTU Guwahati &nbsp; </small> </h6>
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Dr. H Kharkwal <br><small>Joint Director, MoEF, New Delhi</small></h6>
+                    </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Uday Shanker Dixit <br> <small> IIT Guwahati, Assam</small></h6>
+                    </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
 
+            </div>
+            <div class="swiper-slide">
 
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. S N Naik<br> <small>Dept. of Center for Rural Development and Technology, IIT Delhi</small></h6>
+                    </div>
+                </div>
               </div>
-              <div class="center">
-                  <h6>Prof. Uddhab Kumar Bharali<br> <small> UKB Agrotech<br>Guwahati</small> </h6>
-                  
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. B K Das<br> <small> Department of Chemistry,<br>Gauhati University, Guwahati, Assam</small> </h6>
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Madhurjya P Bora <br> <small> Department of Physics,<br> Gauhati University, Guwahati, Assam</small> </h6>
+                    </div>
+                </div>
               </div>
-              <div class="center">
-                  <h6>Prof. Dhiraj Bora<br>&nbsp <small> ASTU <br>Guwahati<br>&nbsp </small> </h6>
+              <div class="clearfix"></div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Khanindra Pathak<br> <small> IIT Kharagpur</small> </h6>
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Ramesh Ch. Deka<br> <small> Tezpur University</small> </h6>
+                    </div>
+                </div>
               </div>
-              <div class="center">
-                  <h6>Prof. Nikhil Kumar Singha<br><small>Department of Rubber Technology, IIT Kharagpur West Bengal</small></h6>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Suresh Deka<br> <small> IASST, Guwahati</small> </h6>
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
+              <div class="clearfix"></div>
 
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
+            </div>
+            <div class="swiper-slide">
+
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Santanu Sharma<br> <small> Tezpur University</small> </h6>
+                    </div>
+                </div>
               </div>
-              <div class="center">
-                  <h6>Dr Rajeshbabu Ramanujam<br> <small> Appollo Tyres<br> &nbsp</small> </h6>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Dilip Kumar Kakati<br> <small> Gauhati University</small> </h6>
+                    </div>
+                </div>
               </div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6>Prof. Nirmalendu Saha<br> <small>NEHU</small> </h6>
+                    </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6><br>Dr. Vimal Katiyar<br> <small> IIT Guwahati</small><br></h6>
+                    </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6><br>Dr. Ujjal K Gautam<br> <small> IISER Mohali</small><br></h6>
+                    </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card-panel hoverable speaker-item">
+                    <div class="valign-wrapper">
+                        <span class="fa fa-star-half-full fa-2x"></span>
+                        <h6><br>Dr. Biman B Mandal<br> <small> IIT Guwahati</small><br></h6>
+                    </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+            </div>
           </div>
         </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Uday Shanker &nbsp; Dixit <br> <small>Department of Mechanical Engineering,&nbsp; IIT Guwahati,<br> Assam</small></h6>
-              </div>
-          </div>
-        </div>
-        
-        
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. S N Naik<br> <small>Dept. of Center for Rural Development and Technology, IIT Delhi</small></h6>
-              </div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. B K Das<br> <small> Department of Chemistry, Gauhati University, Guwahati, <br>Assam</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Madhurjya P Bora <br> <small> Department of Physics, &nbsp; Gauhati University, Guwahati, <br>Assam</small> </h6>
-              </div>
-          </div>
-        </div>
-        
-        
-        
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Khanindra Pathak<br> <small> IIT Kharagpur <br> &nbsp<br> &nbsp</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Ramesh Ch. Deka<br> <small> Tezpur University <br> &nbsp<br> &nbsp</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Suresh Deka<br> <small> IASST, Guwahati</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Santanu Sharma<br> <small> Tezpur University</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Dilip Kumar Kakati<br> <small> Gauhati University</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Prof. Nirmalendu Saha<br> <small>NEHU</small> </h6>
-              </div>
-          </div>
-        </div>
-       <div class="clearfix"></div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Dr. Vimal Katiyar<br> <small> IIT Guwahati</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Dr. Ujjal K Gautam<br> <small> IISER Mohali</small> </h6>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m3">
-          <div class="card-panel hoverable speaker-item">
-              <div class="client-img center">
-                  <img alt="client-image" class="center-block" src="{{ asset('image/speakers/avatar.jpg') }}">
-              </div>
-              <div class="center">
-                  <h6>Dr. Biman B Mandal<br> <small> IIT Guwahati</small> </h6>
-              </div>
-          </div>
-        </div>
-        <!-- Rows Ended -->
 
       </div>
     </div>
   </section>
+
+  <style media="screen">
+    .swiper-container{
+      overflow: hidden;
+      width: 100%;
+    }
+    .speaker-item{
+      background: #f4f4f4!important;
+
+    }
+    .speaker-item .fa{
+      border-radius: 50%;
+      background: #0d47a1;
+      color: white;
+      padding: .5rem .6rem;
+      margin-right: 1rem;
+    }
+  </style>
 
   <!-- Program Details -->
   <!-- Programs -->
@@ -378,7 +356,7 @@
                             </div>
                           </div>
 
-                          
+
                           <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -450,33 +428,33 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
 
                     <div class="row card-panel grey lighten-5 z-depth-1">
-                            <div class="col s3">
-                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
-                            </div>
-                            <div class="col s9">
-                              <span class="s-name orange-text">Prof. Uddhab Kumar Bharali,,</span><br>
-                              <span class="blue-text">UKB Agrotech</span><br>
-                              <span class="pink-text"></span><br>
-                              <span class="orange-text">&nbsp;</span>
-                            </div>
-                          </div>
-                      
+                      <div class="col s3">
+                        <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                      </div>
+                      <div class="col s9">
+                        <span class="s-name orange-text">Prof. Uddhab Kumar Bharali,,</span><br>
+                        <span class="blue-text">UKB Agrotech</span><br>
+                        <span class="pink-text"></span><br>
+                        <span class="orange-text">&nbsp;</span>
+                      </div>
+                    </div>
+
 
                     <div class="row card-panel grey lighten-5 z-depth-1">
-                            <div class="col s3">
-                              <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
-                            </div>
-                            <div class="col s9">
-                              <span class="s-name orange-text">Prof. Dhiraj Bora,</span><br>
-                              <span class="blue-text">ASTU Guwahati</span><br>
-                              <span class="pink-text"></span><br>
-                              <span class="orange-text">&nbsp;</span>
-                            </div>
-                          </div>
-                      
+                      <div class="col s3">
+                        <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
+                      </div>
+                      <div class="col s9">
+                        <span class="s-name orange-text">Prof. Dhiraj Bora,</span><br>
+                        <span class="blue-text">ASTU Guwahati</span><br>
+                        <span class="pink-text"></span><br>
+                        <span class="orange-text">&nbsp;</span>
+                      </div>
+                    </div>
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -488,7 +466,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -500,7 +478,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -512,7 +490,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -524,7 +502,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -536,7 +514,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -548,7 +526,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -560,7 +538,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -572,7 +550,7 @@
                               <span class="orange-text">&nbsp;</span>
                             </div>
                           </div>
-                      
+
                     <div class="row card-panel grey lighten-5 z-depth-1">
                             <div class="col s3">
                               <span><img src="{{ asset('image/speakers/avatar.jpg') }}" style="border-radius: 50%; width:70%; height:70%;"/></span>
@@ -820,10 +798,14 @@
             pagination: '.swiper-pagination',
             paginationClickable: true,
             direction: 'horizontal',
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
             autoHeight: true,
             setWrapperSize: true,
             loop: true,
-            autoplay: 2500,
+            //autoplay: 2500,
             autoplayDisableOnInteraction: false
           })
         });

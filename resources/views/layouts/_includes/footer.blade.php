@@ -9,11 +9,12 @@
           <span style="margin-left: 1.5rem;">
             <span>63<sup>rd</sup> Annual Technical Session of Assam Science Society, 2018.</span>
             <span><u>“National Conference on Applied Sciences, Sustainable and Evolving Technologies”</u></span>
-            <span>March 9th, 10th &amp; 11th of 2018. &nbsp; <a class="grey-text text-lighten-1" href="{{ route('abouts.asset') }}" target="_blank"></a></span>
+            <span>March 9th, 10th &amp; 11th of 2018. &nbsp;
+              <a class="grey-text text-lighten-1" href="{{ route('abouts.asset') }}" target="_blank">Read more</a></span>
           </span>
         </p>
       </div>
-      <!--<div class="col l3 s12">
+      <div class="col l3 s12">
         <h5 class="white-text">&nbsp;</h5>
         <ul>
           <li><a class="white-text" href="{{ route('events.committee') }}">Organising Committee</a></li>
@@ -25,12 +26,12 @@
       <div class="col l3 s12">
         <h5 class="white-text">&nbsp;</h5>
         <ul>
-          <li><a class="white-text" href="{{ url('call-for-paper') }}">Call For Paper</a></li>
-          <li><a class="white-text" href="{{ url('submission') }}">Paper Submission</a></li>
-          <li><a class="white-text" href="{{ url('registration') }}" target="_blank">Registration</a></li>
+          <li><a class="white-text" href="{{ route('pages.paper') }}">Call For Paper</a></li>
+          <li><a class="white-text" href="{{ route('events.registration') }}">Paper Submission</a></li>
+          <li><a class="white-text" href="{{ route('events.registration') }}">Registration</a></li>
         </ul>
       </div>
-    </div>-->
+    </div>
   </div>
   <div class="footer-copyright">
     <div class="container">

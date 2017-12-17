@@ -4,17 +4,7 @@
 
 @section('styles')
   <style media="screen">
-  #speakers{
-    background: url('image/bg-speakers.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 
-  #details{
-    background: url('image/bg-programs.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
   </style>
   <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/swiper.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -25,59 +15,44 @@
   <section id="commitee" class="grey lighten-3">
     <div class="container">
       <div class="row">
-        <div class="patrons col s12 m12 green card">
-       
-          <div class=" col s12 m4 l4 center" >
-            <div class="profile-item white-text">
-      
-              &nbsp
-            </div>
-          </div>
-          
-          <div class=" col s12 m4 l4 center" >
-            <div class="profile-item white-text">
-      
-              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%; " alt="Chief Patron Asset 2018">
-              <span><strong>Chief Patron</strong></span>
-              <span>Mr. Kampa Borgoyary, <span class="grey-text text-lighten-3">Deputy Chief, BTC</span></span>
-            </div>
-          </div>
-<div class="clearfix"></div>
 
+        <div class="patrons col s12 m12 grey lighten-3 card z-depth-0">
 
-
-          <div class="col s12 m4 l4">
-            <div class="profile-item white-text center">
-              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
-              <span><strong>Patron</strong></span>
-              <span>Prof. Hemanta Kumar Baruah<span class="grey-text text-lighten-3">VC, Bodoland University</span></span>
-            </div>
+          <div class="col s12 m6 offset-m3">
+              <div class="profile-item teal lighten-3 white-text card valign-wrapper">
+                {{--<img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%; " alt="Chief Patron Asset 2018"> --}}
+                <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span>
+                <span class=""><strong class="grey-text text-darken-3">CHIEF PATRON</strong><br>
+                <strong>Mr. Kampa Borgoyary, </strong><span class="">Deputy Chief, BTC</span></span>
+              </div>
           </div>
 
-
-          <div class=" col s12 m4 l4 center" >
-            <div class="profile-item white-text">
-      
-              &nbsp
+          <div class="clearfix"></div>
+          <div class="col s12 m1"></div>
+          <div class="col s12 m5 l5">
+            <div class="profile-item teal lighten-3 white-text valign-wrapper card">
+              {{--<img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">  --}}
+              <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span>
+              <span class=""><strong class="grey-text text-darken-3">PATRON</strong><br>
+              <strong>Prof. Hemanta Kumar Baruah</strong><span class="">VC, Bodoland University</span></span>
             </div>
           </div>
-
-      
-          <div class="col s12 m4 l4">
-            <div class="profile-item white-text center">
-              <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
-              <span><strong>Chairman</strong></span>
-              <span>Prof. Debkumar Chakrabarty<span class="grey-text text-lighten-3">Director, CIT</span></span>
+          <div class="col s12 m5 l5">
+            <div class="profile-item teal lighten-3 white-text valign-wrapper card">
+              {{-- <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018"> --}}
+              <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span>
+              <span class=""><strong class="grey-text text-darken-3">CHAIRMAN</strong><br>
+              <strong>Prof. Debkumar Chakrabarty</strong><span class="">Director, CIT</span></span>
             </div>
           </div>
         </div>
-     
+
 
         <div class="clearfix"></div>
 
         <div class="advisors card">
           <h5 class="center advisors-header">National Advisory Board</h5>
-          <div class="col s12 m12 grey lighten-3">
+          <div class="col s12 m12 grey lighten-5">
 
             <div class="col s12 m6">
               <ul class="advisor-list">
@@ -127,11 +102,11 @@
           <div class="clearfix"></div>
 
           <h5 class="center committee-header">Members, Organising Committee</h5>
-          <div class="col s12 m12 grey lighten-3">
+          <div class="col s12 m12 grey lighten-5">
 
             <div class="col s12 m6">
               <ul class="organising-list">
-                <li><strong class="teal-text text-darken-3">ASSAM SCIENCE SOCIETY</strong></li>
+                <li style="border: none!important; background: none!important;"><strong class="teal-text text-darken-3">ASSAM SCIENCE SOCIETY</strong></li>
                 <li><strong>Prof. Soneswar Sarma</strong>
                   <span>Assam Science Society</span></li>
                 <li><strong>Prof. Mohan Ch. Kalita</strong>
@@ -144,7 +119,7 @@
             </div>
             <div class="col s12 m6">
               <ul class="organising-list">
-                <li>&nbsp;</li>
+                <li style="border: none!important; background: none!important;">&nbsp;</li>
                 <li><strong>Mr. Jaideep Baruah</strong>
                   <span>Assam Science Society</span></li>
                 <li><strong>Dr. Dwijen Kalita</strong>
@@ -158,7 +133,7 @@
             <div class="divider"></div>
             <div class="col s12 m6">
               <ul class="organising-list">
-                <li><strong class="teal-text text-darken-3">CIT KOKRAJHAR ASSAM</strong></li>
+                <li style="border: none!important; background: none!important;"><strong class="teal-text text-darken-3">CIT KOKRAJHAR ASSAM</strong></li>
                 <li><strong>Dr. Gunajyoti Das</strong>
                   <span>Asstt. Prof, Dept. of Chemistry, CIT Kokrajhar</span></li>
                 <li><strong>Dr. Aranendu Mondal</strong>
@@ -185,7 +160,7 @@
             </div>
             <div class="col s12 m6">
               <ul class="organising-list">
-                <li><strong class="teal-text text-darken-3">BODOLAND UNIVERSITY ASSAM</strong></li>
+                <li style="border: none!important; background: none!important;"><strong class="teal-text text-darken-3">BODOLAND UNIVERSITY ASSAM</strong></li>
                 <li><strong>Dr. Jatin Sarmah</strong>
                   <span>Asso. Prof, Dept. of Biotechnology, BU</span></li>
                 <li><strong>Dr. Sandeep Das</strong>

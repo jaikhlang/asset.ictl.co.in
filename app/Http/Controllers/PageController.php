@@ -47,7 +47,11 @@ class PageController extends Controller
       return view('pages.sponsor');
     }
 
-    //Know About The Host
+    //Know About The Asset
+    public function knowAsset(){
+      return view('pages.about');
+    }
+
     public function knowAbout(){
       return view('pages.about');
     }

@@ -20,7 +20,7 @@
       <div class="center success-message">
           <p>Hey! {{ $user->name }}, You have successfully registered for the Conference</p>
 
-          <p><a href="#" class="btn wave">View Application</a> &nbsp;&nbsp;<a href="{{ route('print.invoice') }}" class="btn wave">View Payment Invoice</a></p>
+          <p><a href="{{ route('print.application') }}" class="btn wave">View Application</a> &nbsp;&nbsp;<a href="{{ route('print.invoice') }}" class="btn wave">View Payment Invoice</a></p>
       </div>
     </div>
   </div>

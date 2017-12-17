@@ -114,4 +114,16 @@ class PaymentController extends Controller
       }
       return redirect()->route('login');
     }
+
+    //Print Application
+    public function printApplication(){
+      if(Auth::check()){
+        $user = Auth::user();
+        //dd($user);
+        $payment = Payment::where('id', $user->payment_id)->first();
+
+        return view('prints.application')->withPayment($payment);
+      }
+      return redirect()->route('login');
+    }
 }

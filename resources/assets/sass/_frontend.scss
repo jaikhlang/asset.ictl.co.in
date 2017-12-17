@@ -94,13 +94,13 @@ nav{
 //speakers
 #speakers{
   overflow: hidden;
-  padding: 3rem 0 2rem 0;
+  padding: 3.5rem 0 2rem 0;
   .card-panel{
-    background: transparent!important;
+    //background: transparent!important;
   }
 
   .speaker-item{
-    color: white;
+    //color: white;
     .client-img{
       img{
         width: 50%;
@@ -196,37 +196,36 @@ nav{
 
 //Committee
 #commitee{
-
   overflow: hidden;
-  padding: 3rem 0;
+  padding: 2rem 0;
   .patrons{
-      
-    padding: 10rem 0;
+    padding: 1rem 0;
     .profile-item{
-margin:0 auto;
+        margin:1rem auto;
+        padding: 1.5rem 0;
       span{
         display: block;
-        
+
       }
      }
 }
 
-
-     
-
-
-
   .advisors{
     overflow: hidden;
     color: teal;
-    
+
     .advisors-header{
       padding: 3rem 0;
     }
     .advisor-list{
-      
+
       li{
         margin-top: 1.5rem;
+        border-left: 4px solid rgba(0,0,0,0.2);
+        padding-left: 1rem;
+        border-radius: 4px;
+        width: 100%;
+        background: whitesmoke;
       }
       span{
         display: block;
@@ -239,6 +238,11 @@ margin:0 auto;
     .organising-list{
       li{
         margin-top: 1.5rem;
+        border-left: 4px solid rgba(0,0,0,0.2);
+        padding-left: 1rem;
+        border-radius: 4px;
+        width: 100%;
+        background: whitesmoke;
       }
       span{
         display: block;
@@ -269,6 +273,21 @@ margin:0 auto;
     span{
       display: block;
     }
+  }
+}
+
+#about-host{
+  overflow: hidden;
+  padding: 3.5rem 0;
+  h5{
+    padding: 1.5rem 0;
+  }
+  p{
+    text-align: justify;
+    cursor: pointer;
+  }
+  img{
+    overflow: hidden;
   }
 }
 
@@ -306,6 +325,9 @@ margin:0 auto;
 
 
 //Navbar
+.navbar-fixed{
+  z-index: 999!important;
+}
 .dropdown-content{
   top: 67px!important;
   min-width: 130px!important;
