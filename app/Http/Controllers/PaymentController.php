@@ -56,7 +56,7 @@ class PaymentController extends Controller
       'currency' => 'INR',
       'send_email' => true,
       'send_sms' => false,
-      'webhook' => 'http://www.conferenceasset.com/registration-payment/response/webhook',
+      'webhook' => url('registration-payment/response/webhook')
     ];
       $order = Indipay::gateway('InstaMojo')->prepare($parameters);
       return Indipay::process($order);
@@ -107,7 +107,8 @@ class PaymentController extends Controller
 
 
     //Webhook
-    public function webhook(){
+    public function webhook(Request $request){
+      dd($request);
       $data = $_POST;
       $mac_provided = $data['mac'];  // Get the MAC from the POST data
       unset($data['mac']);  // Remove the MAC key from the data.
@@ -128,7 +129,7 @@ class PaymentController extends Controller
       $mac_calculated = hash_hmac("sha1", implode("|", $data), "f224e6d5f31a49f7a32bf50db1b26413");
 
       if($mac_provided == $mac_calculated){
-          echo "MAC is fine";
+          //echo "MAC is fine";
           // Do something here
           if($data['status'] == "Credit"){
              // Payment was successful, mark it as completed in your database
@@ -140,7 +141,7 @@ class PaymentController extends Controller
           }
       }
       else{
-          echo "Invalid MAC passed";
+          //echo "Invalid MAC passed";
       }
     }
 
