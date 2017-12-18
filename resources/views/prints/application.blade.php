@@ -150,7 +150,7 @@
                             </td>
 
                             <td>
-                                #0{{ $payment->id }}<br>
+                                #0{{ $payment->user->id }}<br>
                             </td>
                         </tr>
                     </table>

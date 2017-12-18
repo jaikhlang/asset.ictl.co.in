@@ -29,6 +29,8 @@ Route::prefix('participation')->group(function(){
   Route::post('/event-payment-billing', 'PaymentController@payNow')->name('payments.pay');
 });
 Route::get('indipay/response','PaymentController@response')->name('payments.response');
+//Webhook
+Route::get('registration-payment/response/webhook', 'PaymentController@webhook')->name('webhook');
 Route::get('successfully-registered/{id}','RegistrationController@success')->name('registration.success');
 Route::get('registered-payment-invoice', 'PaymentController@printInvoice')->name('print.invoice');
 Route::get('registered-application-show', 'PaymentController@printApplication')->name('print.application');
