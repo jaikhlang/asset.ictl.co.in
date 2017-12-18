@@ -132,11 +132,11 @@ class PaymentController extends Controller
           // Do something here
           if($data['status'] == "Credit"){
              // Payment was successful, mark it as completed in your database
-             dd("successful");
+             dd("Successful");
           }
           else{
              // Payment was unsuccessful, mark it as failed in your database
-             dd("unsuccessful");
+             dd("Unsuccessful");
           }
       }
       else{
