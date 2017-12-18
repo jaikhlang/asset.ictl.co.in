@@ -56,7 +56,7 @@ class PaymentController extends Controller
       'currency' => 'INR',
       'send_email' => true,
       'send_sms' => false,
-      'webhook' => url('registration-payment/response/webhook')
+      'webhook' => url('registration-payment/response/webhook'),
     ];
       $order = Indipay::gateway('InstaMojo')->prepare($parameters);
       return Indipay::process($order);
@@ -107,8 +107,7 @@ class PaymentController extends Controller
 
 
     //Webhook
-    public function webhook(Request $request){
-      dd($request);
+    public function webhook(){
       $data = $_POST;
       $mac_provided = $data['mac'];  // Get the MAC from the POST data
       unset($data['mac']);  // Remove the MAC key from the data.
