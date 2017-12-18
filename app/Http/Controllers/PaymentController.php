@@ -56,6 +56,7 @@ class PaymentController extends Controller
       'currency' => 'INR',
       'send_email' => true,
       'send_sms' => false,
+      'webhook' => 'http://www.conferenceasset.com/registration-payment/response/webhook',
     ];
       $order = Indipay::gateway('InstaMojo')->prepare($parameters);
       return Indipay::process($order);
