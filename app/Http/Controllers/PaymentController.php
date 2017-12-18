@@ -98,9 +98,7 @@ class PaymentController extends Controller
 
         }
         else{
-            Session::flash('message', 'Registration Failed due to Payment Failure!');
-            return redirect()->route('payments.pay');
-            //return redirect()->route('registration.failed');
+            return redirect()->route('registration.failure');
         }
     }
 
@@ -132,11 +130,37 @@ class PaymentController extends Controller
           // Do something here
           if($data['status'] == "Credit"){
              // Payment was successful, mark it as completed in your database
-             dd("Successful");
+             $user = User::where('email', $data['buyer'])->first();
+
+             if(!$payment = Payment::where('user_id', $user->id)->first()){
+               $payment = new Payment;
+               $payment->user_id = $user->id;
+               $payment->name = $data['buyer_name'];
+               $payment->email = $data['buyer'];
+               $payment->phone = $data['buyer_phone'];
+               $payment->request_id = $data['payment_request_id'];
+               $payment->payment_id = $data['payment_id'];
+               $payment->currency = $data['currency'];
+               $payment->amount = $data['amount'];
+               $payment->gateway_fees = $data['fees'];
+
+               if($payment->save()){
+                   $user->payment_request_id = $data['payment_request_id'];
+                   $user->payment = "paid";
+                   $user->payment()->associate($payment);
+                   $user->save();
+               }
+             }else{
+               $payment = Payment::where('user_id', $user->id)->first();
+               $user->payment_request_id = $data['payment_request_id'];
+               $user->payment = "paid";
+               $user->payment()->associate($payment);
+               $user->save();
+             }
           }
           else{
              // Payment was unsuccessful, mark it as failed in your database
-             dd("Unsuccessful");
+             //Do nothing
           }
       }
       else{

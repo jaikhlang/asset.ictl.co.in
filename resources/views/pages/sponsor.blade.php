@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('metatags')
+
+@endsection
+
 @section('title', 'Sponsorship - 63RD Annual Technical Session of Assam Science Society 2018')
 
 @section('styles')

@@ -32,6 +32,7 @@ Route::get('indipay/response','PaymentController@response')->name('payments.resp
 //Webhook
 Route::any('registration-payment/response/webhook', 'PaymentController@webhook')->name('webhook');
 Route::get('successfully-registered/{id}','RegistrationController@success')->name('registration.success');
+Route::get('registration-failure','RegistrationController@failure')->name('registration.failure');
 Route::get('registered-payment-invoice', 'PaymentController@printInvoice')->name('print.invoice');
 Route::get('registered-application-show', 'PaymentController@printApplication')->name('print.application');
 

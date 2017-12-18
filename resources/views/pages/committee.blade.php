@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@section('metatags')
+  <meta name="description" content="Jointly organised by CIT Kokrajhar and Bodoland University, Assam Science Society"/>
+  <meta name="keywords" content="organisers, committee, 4btechnologies, asset18, asset2018, asset, assam science society, cit, cit kokrajhar, assam, bu, bodoland university, university conference, national conference assam, Green Science and Technology for Cleaner Society"/>
+@endsection
+
 @section('title', 'Committee - 63RD Annual Technical Session of Assam Science Society 2018')
 
 @section('styles')

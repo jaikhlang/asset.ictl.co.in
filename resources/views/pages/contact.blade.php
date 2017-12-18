@@ -1,5 +1,12 @@
 @extends('layouts.app')
+
+@section('metatags')
+  <meta name="description" content="Contact any Conference Coordinator for any information regarding conference ASSET 2018"/>
+  <meta name="keywords" content="contact, information, asset18, asset2018, asset, assam science society, cit, cit kokrajhar, assam, bu, bodoland university, university conference, national conference assam, Green Science and Technology for Cleaner Society"/>
+@endsection
+
 @section('title', 'Contact - 63RD Annual Technical Session of Assam Science Society 2018')
+
 @section('styles')
   <link href="{{ asset('css/owl.carousel.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{ asset('css/swiper.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>

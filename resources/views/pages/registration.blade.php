@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@section('metatags')
+  <meta name="description" content="Register Now!! Limited seats. Last date of registration is 31st January 2018"/>
+  <meta name="keywords" content="register,registration,asset18, asset2018, asset, assam science society, cit, cit kokrajhar, assam, bu, bodoland university, university conference, national conference assam, Green Science and Technology for Cleaner Society"/>
+@endsection
+
 @section('title', 'Registration - 63RD Annual Technical Session of Assam Science Society 2018')
 
 @section('styles')
@@ -107,6 +112,7 @@
                 <div class="card-panel white lighten-5 z-depth-0">
                     <h5>Registration Guidelines</h5>
                     <p><span class="red-text"><i class="fa fa-circle-o"></i></span> Registration Fee </p>
+                    <span>Register now!! Deligates registering after 31<sup>st</sup> January 2018, will have to pay additional Rs. 500/- as late fee.</span>
                     <ul class="registration-fee">
                       <li>
                         <span>1. Students (CIT &amp; BU) only</span>

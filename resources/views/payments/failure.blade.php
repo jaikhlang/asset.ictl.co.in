@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Successful Registration & Payment - Conference Payments')
+@section('title', 'Payment Failure - Conference Registration Payments')
 
 @section('styles')
   <link href="{{ asset("css/owl.carousel.css") }}" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -19,9 +19,10 @@
     <div class="col s12 m12">
       <div class="center success-message">
         <div class="card z-depth-0" style="padding: 2rem 0;">
-          <p class="green-text">Hey! {{ $user->name }}, You have successfully registered for the Conference</p>
 
-          <p><a href="{{ route('print.application') }}" class="btn wave">View Application</a> &nbsp;&nbsp;<a href="{{ route('print.invoice') }}" class="btn wave">View Payment Invoice</a></p>
+          <p class="red-text">Hey! {{ $user->name }}, Your registration failed due to payment failure</p>
+          <a href="{{ route('payments.pay') }}" class="btn wave">Try Again</a>
+
         </div>
       </div>
     </div>
@@ -46,21 +47,6 @@
             $('.carousel').carousel('next');
           }, 4500);
       });
-
-      $(document).ready(function () {
-          //initialize swiper when document ready
-          var mySwiper = new Swiper ('.swiper-container', {
-            // Optional parameters
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
-            direction: 'horizontal',
-            autoHeight: true,
-            setWrapperSize: true,
-            loop: true,
-            autoplay: 2500,
-            autoplayDisableOnInteraction: false
-          })
-        });
 
 
     </script>

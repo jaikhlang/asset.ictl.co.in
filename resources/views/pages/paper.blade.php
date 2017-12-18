@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@section('metatags')
+  <meta name="description" content="Call for Paper, An abstract of paper not exceeding 200 words should be submitted to asset.2k18@gmail.com"/>
+  <meta name="keywords" content="call for paper, paper submission, asset18, asset2018, asset, assam science society, cit, cit kokrajhar, assam, bu, bodoland university, university conference, national conference assam, Green Science and Technology for Cleaner Society"/>
+@endsection
+
 @section('title', 'Call For Paper - 63RD Annual Technical Session of Assam Science Society 2018')
 
 @section('styles')

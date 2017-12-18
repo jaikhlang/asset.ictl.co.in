@@ -1,5 +1,17 @@
 @extends('layouts.app')
 
+@section('metatags')
+  <meta name="description" content="This conference provides a National forum for academician researchers, developers and industry
+  professionals to exchange their valuable ideas and showcase the ongoing works which may lead to
+  path breaking foundation of the futuristic growth in science engineering and technology. The aim of
+  this conference is to deliberate and disseminate knowledge on various aspect of inter disciplinary
+  sciences, integrated systems, global and local issue, state of the earth tools and technology etc. Bring
+  together the academicians, scientists, engineers and manufacturers from various institutions, universities,
+  colleges and industry to discuss the relevance of various futuristic technologies emerging in this
+  area throughout the world and share their views."/>
+  <meta name="keywords" content="asset18, asset2018, asset, assam science society, cit, cit kokrajhar, assam, bu, bodoland university, university conference, national conference assam, Green Science and Technology for Cleaner Society"/>
+@endsection
+
 @section('title', 'About CIT & BU - 63RD Annual Technical Session of Assam Science Society 2018')
 
 @section('styles')

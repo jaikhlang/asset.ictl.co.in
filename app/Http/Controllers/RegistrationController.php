@@ -87,4 +87,9 @@ class RegistrationController extends Controller
       return view('payments.success')->withUser($user);
     }
 
+    public function failure(){
+      $user = Auth::user();
+      return view('payments.failure')->withUser($user);
+    }
+
 }
