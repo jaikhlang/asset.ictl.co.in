@@ -1,2 +1,0 @@
-[26-Nov-2017 08:28:48 Etc/GMT] PHP Warning:  require(/home/ictlczmd/public_html/asset.ictl.co.in/vendor/autoload.php): failed to open stream: No such file or directory in /home/ictlczmd/public_html/asset.ictl.co.in/artisan on line 18
-[26-Nov-2017 08:28:48 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/home/ictlczmd/public_html/asset.ictl.co.in/vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ictlczmd/public_html/asset.ictl.co.in/artisan on line 18
