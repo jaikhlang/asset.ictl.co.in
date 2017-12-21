@@ -89,7 +89,7 @@
               </div>
               <div class="col s12 m4">
                   <p>you can <span class="green-text"> submit your paper through</span> <span class="chip">asset.2k18@gmail.com</span></p>
-                  <p><a href="{{ route('submission') }}" class="btn waves-effect blue waves-blue" style="width: 100%;">Submit Paper</a></p-->
+                  <!--p><a href="{{ route('submission') }}" class="btn waves-effect blue waves-blue" style="width: 100%;">Submit Paper</a></p-->
                   <div class="divider"></div>
                   <!--p>For offline submission of paper download <a class="btn" href="{{ url('uploads/offlinesubmission.pdf') }}">OFFLINE FORM</a>.<br>Fill in and submit at Central Library, CIT Kokrajhar (Conference Hall)</p>
                   -->
