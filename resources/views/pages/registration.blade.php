@@ -175,7 +175,7 @@
                     <h5>How To Register Offline.</h5>
                       <p>1. Download Registration From Here <a href="{{ asset('uploads/RegistrationForm.docx') }}">(Offline) Registration Form.</a></p>
                       <p>2. Fill in all the details required and affix passport size photograph.</p>
-                      <p>3. (D/D, Cheque should be made in favour of MANASI BUZAR BARUAH account number: 916010033882302 payable at Axis Bank, Kokrajhar, Assam)</p>
+                      <p>3. (D/D, Cheque should be made in favour of <strong>APPLIED SCIENCES SUST AND EVOLV TECH</strong>, Account number: 37365772593 payable at State Bank of India, Kokrajhar, Assam)</p>
                       <p>4. Send filled in registration form to <span class="chip blue-text">asset.2k18@gmail.com</span></p>
                       <p>5. On successful registration,you will be notified with an email.</p>
                   </div>

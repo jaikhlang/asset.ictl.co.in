@@ -655,7 +655,7 @@
                             <span><strong>2. Offline Mode</strong>
                               Download registration form from
                               <a class="white-text" href="{{ asset('uploads/RegistrationForm.docx') }}">(Offline Register Form)</a>.
-                              (D/D, Cheque should be made in favour of MANASI BUZAR BARUAH account number: 916010033882302 payable at Axis Bank, Kokrajhar, Assam).
+                              (D/D, Cheque should be made in favour of <strong>APPLIED SCIENCES SUST AND EVOLV TECH</strong>, Account number: <strong>37365772593</strong> payable at State Bank of India, Kokrajhar, Assam).
                               Send filled in registration form to <span class="chip">asset.2k18@gmail.com </span>
                             </span>
                           </p>
