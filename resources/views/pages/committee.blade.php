@@ -112,25 +112,25 @@
             <div class="col s12 m6">
               <ul class="organising-list">
                 <li style="border: none!important; background: none!important;"><strong class="teal-text text-darken-3">ASSAM SCIENCE SOCIETY</strong></li>
-                <li><strong>Prof. Soneswar Sarma</strong>
-                  <span>Assam Science Society</span></li>
-                <li><strong>Prof. Mohan Ch. Kalita</strong>
-                  <span>Assam Science Society</span></li>
-                <li><strong>Prof. Dhireswar Kalita</strong>
-                  <span>Assam Science Society</span></li>
+                <li><strong>Dr. Soneswar Sarma</strong>
+                  <span>President</span></li>
+                <li><strong>Dr. Mohan Ch. Kalita</strong>
+                  <span>Working President</span></li>
+                <li><strong>Dr. Dhireswar Kalita</strong>
+                  <span>Vice President</span></li>
                 <li><strong>Mr. Pradip Neog</strong>
-                  <span>Assam Science Society</span></li>
+                  <span>Vice President</span></li>
               </ul>
             </div>
             <div class="col s12 m6">
               <ul class="organising-list">
                 <li style="border: none!important; background: none!important;">&nbsp;</li>
                 <li><strong>Mr. Jaideep Baruah</strong>
-                  <span>Assam Science Society</span></li>
+                  <span>General Secretary</span></li>
                 <li><strong>Dr. Dwijen Kalita</strong>
-                  <span>Assam Science Society</span></li>
+                  <span>Joint Secretary-Office Management</span></li>
                 <li><strong>Prof. Suresh Deka</strong>
-                  <span>Assam Science Society</span></li>
+                  <span>Chairman, Technical Session</span></li>
               </ul>
             </div>
 

@@ -52,7 +52,10 @@ class PageController extends Controller
       return view('pages.about');
     }
 
+    //Know About CIT & BU
     public function knowAbout(){
       return view('pages.about');
     }
+
+    
 }

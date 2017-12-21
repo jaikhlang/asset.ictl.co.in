@@ -267,7 +267,8 @@
                       <div class="card-content tab-content center">
                           <!--div id="count-down" class="count-down"></div-->
                           <h5 class="" style="padding: 4rem 0; font-weight: 600;">
-                            <a class="pink-text text-accent-3" href="{{ url('/') }}">ASSET 2018</a>
+                            <a class="pink-text text-accent-3" href="{{ url('/') }}">ASSET 2018</a><br>
+                            <small>9TH - 11TH MARCH 2018</small>
                           </h5>
                           <div class="divider"></div>
                           <p>Mark Your Calendar. We Are Begining Soon.</p>

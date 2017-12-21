@@ -33,9 +33,6 @@
           <div class="row">
               <div class="col s12 m8">
                 <div class="card-panel white lighten-5 z-depth-1">
-                    <div class="">
-                        <img src="{{ asset('images/award.jpg') }}" style="width: 100%">
-                    </div>
                     <h5>Aim &amp; Scopes</h5>
                     <p class=" text-justified">
                       This conference provides a National forum for academician researchers, developers and industry professional to exchange their valuable ideas and showcase the ongoing works
@@ -73,7 +70,7 @@
                       <div class="divider"></div>
                       <h5 class="header">Abstracts Submission Guidelines</h5>
                       <div class="teal-text text-justified">
-                        The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 15 January 2018. The decesion of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                        The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 15 January 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
                         format.
                       </div>
 
@@ -92,7 +89,7 @@
               </div>
               <div class="col s12 m4">
                   <p>you can <span class="green-text"> submit your paper through</span> <span class="chip">asset.2k18@gmail.com</span></p>
-                  <!--p><a href="{{ url('submission') }}" class="btn waves-effect blue waves-blue">Submit Paper</a></p-->
+                  <p><a href="{{ route('submission') }}" class="btn waves-effect blue waves-blue" style="width: 100%;">Submit Paper</a></p-->
                   <div class="divider"></div>
                   <!--p>For offline submission of paper download <a class="btn" href="{{ url('uploads/offlinesubmission.pdf') }}">OFFLINE FORM</a>.<br>Fill in and submit at Central Library, CIT Kokrajhar (Conference Hall)</p>
                   -->
