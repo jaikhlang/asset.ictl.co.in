@@ -95,7 +95,7 @@
                   </div>
               </div>
               <div class="center">
-                <span>Not registered yet? <a class="" href="{{ route('register') }}">Register Now</a></span>
+                <span>Not registered yet? <a class="" href="{{ route('events.registration') }}">Register Now</a></span>
               </div>
           </div>
       </div>
