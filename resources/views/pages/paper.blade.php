@@ -70,7 +70,7 @@
                       <div class="divider"></div>
                       <h5 class="header">Abstracts Submission Guidelines</h5>
                       <div class="teal-text text-justified">
-                        The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 15 January 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                        The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 31st January 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
                         format.
                       </div>
 
@@ -95,8 +95,8 @@
                   -->
                   <div id="submission-guide">
                     <h5></h5>
-                    <p class="teal-text">Abstract submission deadline - <span class="red-text">15th January 2018 </span><br>
-                      Paper acceptance letter will be sent (via e-mail) on - <span class="red-text">25th January 2018 </span><br>
+                    <p class="teal-text">Abstract submission deadline - <span class="red-text">31st January 2018 </span><br>
+                      Paper acceptance letter will be sent (via e-mail) on - <span class="red-text">09th February 2018 </span><br>
                       Registration deadline - <span class="red-text">31st January 2018</span></p>
                   </div>
 

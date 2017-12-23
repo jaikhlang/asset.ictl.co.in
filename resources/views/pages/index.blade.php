@@ -283,8 +283,8 @@
                           <div class="divider"></div>
                           <p>Conference Date: <span><strong> 9th, 10th, &amp; 11th March 2018.</strong></span></p>
                           <p>Registration Deadline: <span><strong> 31st January 2018</strong></span></p>
-                          <p>Abstract Submission Deadline: <span><strong> 15th January 2017</strong></span></p>
-                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 25th January 2018</strong></span></p>
+                          <p>Abstract Submission Deadline: <span><strong> 31st January 2018</strong></span></p>
+                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 09th February 2018</strong></span></p>
                       </div>
                     </div>
 
