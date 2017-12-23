@@ -37,7 +37,7 @@
                     <p class=" text-justified">
                       This conference provides a National forum for academician researchers, developers and industry professional to exchange their valuable ideas and showcase the ongoing works
                       which may lead to path breaking foundation of the futuristic growth in science engineering and technology. The aim of this conference is to deliberate and disseminate knowledge on
-                      various aspect of inter disciplinary sciences, integrated systems, global and local issue, state of the earth tools and technology etc. Bring together the academicians, scientists, engineers
+                      various aspect of inter disciplinary sciences, integrated systems, global and local issue, state of the art tools and technology etc. Bring together the academicians, scientists, engineers
                       and manufacturers from various institutions, universities, colleges and industry to discuss the relevance of various futuristic technologies emerging in this area throughout the world and
                       share their views.
                     </p>
@@ -80,7 +80,7 @@
                           <li><span class="red-text"><i class="fa fa-circle"></i></span> Title: A concise title with font size 14, Bold</li>
                           <li><span class="red-text"><i class="fa fa-circle"></i></span> Author: font size 12, regular</li>
                           <li><span class="red-text"><i class="fa fa-circle"></i></span> Affiliation: font size 10, regular</li>
-                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Email id, phone nummber, one copy passport size photo with biblography and star mark(*) of the corresponding author.</li>
+                          <li><span class="red-text"><i class="fa fa-circle"></i></span> Email id, phone number, one copy passport size photo with biblography and star mark(*) of the corresponding author.</li>
                         </ul>
                       </div>
 

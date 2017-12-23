@@ -5,7 +5,7 @@
   professionals to exchange their valuable ideas and showcase the ongoing works which may lead to
   path breaking foundation of the futuristic growth in science engineering and technology. The aim of
   this conference is to deliberate and disseminate knowledge on various aspect of inter disciplinary
-  sciences, integrated systems, global and local issue, state of the earth tools and technology etc. Bring
+  sciences, integrated systems, global and local issue, state of the art tools and technology etc. Bring
   together the academicians, scientists, engineers and manufacturers from various institutions, universities,
   colleges and industry to discuss the relevance of various futuristic technologies emerging in this
   area throughout the world and share their views."/>

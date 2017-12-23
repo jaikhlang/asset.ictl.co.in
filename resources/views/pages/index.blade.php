@@ -585,7 +585,7 @@
                             <div class="divider"></div>
                             <h5 class="header">Abstracts Submission Guidelines</h5>
                             <div class="teal-text text-justified">
-                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 15 January 2018. The decesion of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 15 January 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
                               format.
                             </div>
                             <div class="">
@@ -594,7 +594,7 @@
                                 <li><span class="red-text"><i class="fa fa-circle"></i></span> Title: A concise title with font size 14, Bold</li>
                                 <li><span class="red-text"><i class="fa fa-circle"></i></span> Author: font size 12, regular</li>
                                 <li><span class="red-text"><i class="fa fa-circle"></i></span> Affiliation: font size 10, regular</li>
-                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Email id, phone nummber, one copy passport size photo with biblography and star mark(*) of the corresponding author.</li>
+                                <li><span class="red-text"><i class="fa fa-circle"></i></span> Email id, phone number, one copy passport size photo with biblography and star mark(*) of the corresponding author.</li>
                               </ul>
                             </div>
                             <p class="light">
