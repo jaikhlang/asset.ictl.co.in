@@ -585,7 +585,7 @@
                             <div class="divider"></div>
                             <h5 class="header">Abstracts Submission Guidelines</h5>
                             <div class="teal-text text-justified">
-                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 15 January 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 31st January 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
                               format.
                             </div>
                             <div class="">
