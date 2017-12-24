@@ -47,6 +47,11 @@
                             </span>
 
                             <span>
+                              <input name="group" value="otherstudent" class="with-gap" type="radio" id="otherstudent" />
+                              <label for="otherstudent">Student (Others)</label>
+                            </span>
+
+                            <span>
                               <input name="group" value="researcher" class="with-gap" type="radio" id="researcher" />
                               <label for="researcher">Researcher</label>
                             </span>

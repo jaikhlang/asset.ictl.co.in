@@ -41,3 +41,9 @@ Route::get('registered-application-show', 'PaymentController@printApplication')-
 
 //Auth Home
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//backend
+Route::prefix('backend')->group(function(){
+  Route::get('/registered-delegates', 'AdminController@listRegistered')->name('registered');
+});

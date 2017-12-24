@@ -22,7 +22,11 @@ class PaymentController extends Controller
       if($user->category == 'student'){
         $fee = 1000;
         $latefee = 1500;
-      }elseif ($user->category == 'researcher') {
+      }elseif ($user->category == 'otherstudent') {
+        $fee = 1500;
+        $latefee = 2000;
+      }
+      elseif ($user->category == 'researcher') {
         $fee = 2000;
         $latefee = 2500;
       }elseif ($user->category == 'academician') {
@@ -58,7 +62,10 @@ class PaymentController extends Controller
       'send_sms' => false,
       'webhook' => url('registration-payment/response/webhook'),
     ];
+
+      //dd($parameters);
       $order = Indipay::gateway('InstaMojo')->prepare($parameters);
+      //dd($order);
       return Indipay::process($order);
     }
 

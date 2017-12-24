@@ -10,7 +10,7 @@ return [
     |   view    = File
     */
 
-    'gateway' => 'Mocker',                // Replace with the name of default gateway you want to use
+    'gateway' => 'InstaMojo',                // Replace with the name of default gateway you want to use
 
     'testMode'  => true,                   // True for Testing the Gateway [For production false]
 

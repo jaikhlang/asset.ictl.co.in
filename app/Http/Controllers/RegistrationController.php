@@ -24,7 +24,7 @@ class RegistrationController extends Controller
           'address' => 'required|max:255',
           'pin' => 'required',
           'email' => 'required|email',
-          'phone' => 'required',
+          'phone' => 'required|digits:10',
           'paper' => 'max:255',
       ]);
 
