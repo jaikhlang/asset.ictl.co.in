@@ -138,8 +138,9 @@ class PaymentController extends Controller
           if($data['status'] == "Credit"){
              // Payment was successful, mark it as completed in your database
              $user = User::where('email', $data['buyer'])->first();
+             $payment = Payment::where('user_id', $user->id)->first();
 
-             if(!$payment = Payment::where('user_id', $user->id)->first()){
+             if(empty($payment)){
                $payment = new Payment;
                $payment->user_id = $user->id;
                $payment->name = $data['buyer_name'];
@@ -166,7 +167,7 @@ class PaymentController extends Controller
              }
           }
           else{
-             // Payment was unsuccessful, mark it as failed in your database
+             //Payment was unsuccessful, mark it as failed in your database
              //Do nothing
           }
       }
