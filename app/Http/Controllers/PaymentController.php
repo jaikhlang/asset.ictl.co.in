@@ -162,7 +162,7 @@ class PaymentController extends Controller
                $payment = Payment::where('user_id', $user->id)->first();
                $user->payment_request_id = $data['payment_request_id'];
                $user->payment = "paid";
-               $user->payment()->associate($payment);
+               //$user->payment()->associate($payment);
                $user->save();
              }
           }
