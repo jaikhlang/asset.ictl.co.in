@@ -266,10 +266,13 @@
                     <div id="countdown" class="card-panel grey lighten-3 orange-text z-depth-0">
                       <div class="card-content tab-content center">
                           <!--div id="count-down" class="count-down"></div-->
-                          <h5 class="" style="padding: 4rem 0; font-weight: 600;">
+                          <h5 class="" style="padding: 2rem 0; font-weight: 600;">
                             <a class="pink-text text-accent-3" href="{{ url('/') }}">ASSET 2018</a><br>
                             <small>9TH - 11TH MARCH 2018</small>
                           </h5>
+
+                          <a href="{{ asset('uploads/brochure.pdf') }}" class="wave-effect btn orange light-wave">Download Brochure</a>
+                          <br><br>
                           <div class="divider"></div>
                           <p>Mark Your Calendar. We Are Begining Soon.</p>
                           <a href="{{ url('/notice-lists') }}" class="btn orange">notices</a>

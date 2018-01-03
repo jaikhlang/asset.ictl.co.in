@@ -31,6 +31,40 @@
   <section id="paper" class="callforpaper grey lighten-3" style="overflow: hidden;">
       <div class="container">
           <div class="row">
+            <div class="col s12">
+              <div class="card-panel">
+                <div class="card-text" style="overflow: hidden;">
+                  <div class="col s12 m4">
+                    <div class="">
+                      <span class="valign-wrapper">
+                        <span style="padding: .3rem;" class="card red white-text z-depth-0 fa  fa-star-half-full fa-3x"></span>
+                        <span class="red-text" style="margin-left: .6rem;">BEST PAPER AWARD<br> <span class="grey-text">with Certificate of Merit.</span></span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m4">
+                    <div class="">
+                      <span class="valign-wrapper">
+                        <span style="padding: .3rem;" class="card green white-text z-depth-0 fa  fa-star-half-full fa-3x"></span>
+                        <span class="green-text" style="margin-left: .6rem;">BEST PRESENTATION AWARD<br> <span class="grey-text">with Certificate of Merit.</span></span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m4">
+                    <div class="">
+                      <span class="valign-wrapper">
+                        <span style="padding: .3rem;" class="card light-blue white-text z-depth-0 fa  fa-star-half-full fa-3x"></span>
+                        <span class="light-blue-text" style="margin-left: .6rem;">BEST POSTER AWARD<br> <span class="grey-text">with Certificate of Merit.</span></span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="clearfix"></div>
               <div class="col s12 m8">
                 <div class="card-panel white lighten-5 z-depth-1">
                     <h5>Aim &amp; Scopes</h5>

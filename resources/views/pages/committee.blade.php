@@ -25,8 +25,10 @@
 
           <div class="col s12 m6 offset-m3">
               <div class="profile-item teal lighten-3 white-text card valign-wrapper">
-                {{--<img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%; " alt="Chief Patron Asset 2018"> --}}
+                {{--<img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%; " alt="Chief Patron Asset 2018">
                 <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span>
+--}}
+                <span style="margin: 0 1rem;"><img class="circle" style="width: 80%" src="{{ asset('image/speakers/kampa.jpg') }}" alt=""></span>
                 <span class=""><strong class="grey-text text-darken-3">CHIEF PATRON</strong><br>
                 <strong>Mr. Kampa Borgoyary, </strong><span class="">Deputy Chief, BTC</span></span>
               </div>
@@ -36,16 +38,18 @@
           <div class="col s12 m1"></div>
           <div class="col s12 m5 l5">
             <div class="profile-item teal lighten-3 white-text valign-wrapper card">
-              {{--<img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">  --}}
-              <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span>
+              {{--<img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
+              <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span> --}}
+              <span style="margin: 0 1rem;"><img class="circle" style="width: 80%" src="{{ asset('image/speakers/buvc.jpg') }}" alt=""></span>
               <span class=""><strong class="grey-text text-darken-3">PATRON</strong><br>
               <strong>Prof. Hemanta Kumar Baruah</strong><span class="">VC, Bodoland University</span></span>
             </div>
           </div>
           <div class="col s12 m5 l5">
             <div class="profile-item teal lighten-3 white-text valign-wrapper card">
-              {{-- <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018"> --}}
-              <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span>
+              {{-- <img src="{{ asset('image/profile/avatar.jpg') }}" style="width: 40%; border-radius: 50%;" alt="Chief Patron Asset 2018">
+              <span class="fa fa-slack fa-3x" style="background: teal; color: white; border-radius: 50%; padding: .4rem .5rem; margin: 0 1rem;"></span> --}}
+              <span style="margin: 0 1rem;"><img class="circle" style="width: 80%" src="{{ asset('image/speakers/director.jpg') }}" alt=""></span>
               <span class=""><strong class="grey-text text-darken-3">CHAIRMAN</strong><br>
               <strong>Prof. Debkumar Chakrabarty</strong><span class="">Director, CIT</span></span>
             </div>
@@ -160,7 +164,7 @@
                 <li><strong>Mr. J D H Basumatary</strong>
                   <span>Dean of Student Affairs,Asstt. Prof, Dept. of Humanities &amp; Social Sciences, CIT Kokrajhar</span></li>
                 <li><strong>Mr. Bihung Brahma</strong>
-                  <span>HOD, Asstt. Prof. Dept. of Humanities &amp; Social Sciences, CIT Kokrajhar</span></li>
+                  <span>HoD, Asstt. Prof. Dept. of Humanities &amp; Social Sciences, CIT Kokrajhar</span></li>
               </ul>
             </div>
             <div class="col s12 m6">
