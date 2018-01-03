@@ -94,6 +94,8 @@ class PaymentController extends Controller
             //Gateway fee
             $payment->gateway_fees = $paidDetails->fees;
 
+            /*
+
             if($payment->save()){
                 $user->payment_request_id = $paymentDetails->id;
                 $user->payment = "paid";
@@ -102,6 +104,9 @@ class PaymentController extends Controller
                 $paymentRequestId = $user->payment_request_id;
                 return redirect()->route('registration.success', $paymentRequestId);
             }
+            */
+
+            return redirect()->route('registration.success', $paymentDetails->id);
 
         }
         else{
