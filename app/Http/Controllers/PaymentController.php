@@ -140,9 +140,7 @@ class PaymentController extends Controller
              $user = User::where('email', $data['buyer'])->first();
              $payment = Payment::where('user_id', $user->id)->first();
 
-
-
-             if($payment){
+             if(empty($payment)){
                $payment = new Payment;
                $payment->user_id = $user->id;
                $payment->name = $data['buyer_name'];
@@ -154,13 +152,13 @@ class PaymentController extends Controller
                $payment->amount = $data['amount'];
                $payment->gateway_fees = $data['fees'];
 
-               $payment->save()
-               $user->payment_request_id = $data['payment_request_id'];
-               $user->payment = "paid";
-               $user->payment()->associate($payment);
-               $user->save();
-             }
-             else{
+               if($payment->save()){
+                   $user->payment_request_id = $data['payment_request_id'];
+                   $user->payment = "paid";
+                   $user->payment()->associate($payment);
+                   $user->save();
+               }
+             }else{
                $payment = Payment::where('user_id', $user->id)->first();
                $user->payment_request_id = $data['payment_request_id'];
                $user->payment = "paid";
