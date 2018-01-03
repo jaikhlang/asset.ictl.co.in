@@ -142,7 +142,7 @@ class PaymentController extends Controller
 
 
 
-             if(empty($payment)){
+             if($payment){
                $payment = new Payment;
                $payment->user_id = $user->id;
                $payment->name = $data['buyer_name'];
