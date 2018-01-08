@@ -49,7 +49,7 @@ class AdminController extends Controller
       	->where('users.payment', '=', 'paid')
         ->select('users.id','users.name', 'users.email', 'users.category', 'users.designation',
                   'users.address', 'users.phone', 'payments.payment_id', 'payments.amount', 'payments.gateway_fees')
-      	->get();
+      	->distinct()->get();
 
 
 
