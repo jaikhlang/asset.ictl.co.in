@@ -15,7 +15,7 @@
                       <div class="divider"></div>
 
                       <div class="" style="padding: 1.5rem 0;">
-                        <span>Paper on acceptance, notification mail will be sent your email.</span>
+                        <span>Paper on acceptance, notification mail will be sent to your email.</span>
                       </div>
 
                       <div class="card-panel">
