@@ -98,7 +98,7 @@ class PaymentController extends Controller
             if($payment->save()){
                 $user->payment_request_id = $paymentDetails->id;
                 $user->payment = "paid";
-                $user->payment()->associate($payment);
+                $user->payment_id = $payment->id;
                 $user->save();
                 $paymentRequestId = $user->payment_request_id;
                 return redirect()->route('registration.success', $paymentRequestId);
@@ -159,14 +159,15 @@ class PaymentController extends Controller
                if($payment->save()){
                    $user->payment_request_id = $data['payment_request_id'];
                    $user->payment = "paid";
-                   $user->pay()->associate($payment);
+                   $user->payment_id = $payment->id;
                    $user->save();
                }
              }else{
                $payment = Payment::where('user_id', $user->id)->first();
                $user->payment_request_id = $data['payment_request_id'];
                $user->payment = "paid";
-               $user->pay()->associate($payment);
+               //$user->pay()->associate($payment);
+               $user->payment_id = $payment->id;
                $user->save();
              }
           }
