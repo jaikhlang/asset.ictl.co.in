@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use App\Payment;
+use App\Paper;
 use Excel;
 
 class AdminController extends Controller
@@ -14,6 +15,15 @@ class AdminController extends Controller
   {
       $this->middleware('role:superadministrator|administrator');
   }
+
+  //List all papers
+
+  public function listPapers(){
+    $papers = Paper::all();
+    return view('backend.papers')->withPapers($papers);
+  }
+
+
     //List all the paid/registered applicant
 
     public function listRegistered(){
@@ -41,19 +51,26 @@ class AdminController extends Controller
                                   ->withUnpaids($unpaids);
     }
 
-    public function createexcel(){
+    public function createRegisteredExcel(){
 
       $users = User::orderBy('id', 'desc')->join('payments', 'payments.user_id', '=', 'users.id')
       	->where('users.payment', '=', 'paid')
         ->select('users.id','users.name', 'users.email', 'users.category', 'users.designation',
                   'users.address', 'users.phone', 'payments.payment_id', 'payments.amount', 'payments.gateway_fees')
       	->distinct()->get();
-
-
-
       Excel::create('Paid Delegate List', function($excel) use($users) {
           $excel->sheet('Paid List Sheet', function($sheet) use($users) {
               $sheet->fromArray($users)->setOrientation('landscape');
+          });
+      })->export('xls');
+    }
+
+    public function createSubmittedExcel(){
+      $papers = Paper::orderBy('id', 'desc')->get();
+
+      Excel::create('Paper List', function($excel) use($papers) {
+          $excel->sheet('Paper List Sheet', function($sheet) use($papers) {
+              $sheet->fromArray($papers)->setOrientation('landscape');
           });
       })->export('xls');
     }

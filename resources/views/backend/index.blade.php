@@ -18,6 +18,8 @@
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
           <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="{{ route('registered') }}" class="">Registered Delegates</a></li>
+            <li><a href="{{ route('papers') }}" class="">Papers Submitted</a></li>
             @role('superadministrator|administrator')
             <li>
               <a href="{{ route('logout') }}"
@@ -92,7 +94,7 @@
                     <?php $total = $total + $delegate->pay->amount; $fee = $fee + $delegate->pay->gateway_fees;?>
                   @endforeach
                   <tr>
-                      <td><a href="{{ route('create.excel')}}">Create Excel</a></td>
+                      <td><a href="{{ route('create.excel.registered')}}">Create Excel Sheet</a></td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>

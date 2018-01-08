@@ -50,5 +50,7 @@ Route::get('/admin', function(){
 });
 Route::prefix('backend')->group(function(){
   Route::get('/registered-delegates', 'AdminController@listRegistered')->name('registered');
-  Route::get('create-excel', 'AdminController@createexcel')->name('create.excel');
+  Route::get('create-excel-registered', 'AdminController@createRegisteredExcel')->name('create.excel.registered');
+  Route::get('/papers', 'AdminController@listPapers')->name('papers');
+  Route::get('create-excel-submitted', 'AdminController@createSubmittedExcel')->name('create.excel.submitted');
 });
