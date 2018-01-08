@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use App\Mail\SubmittedEmail;
 use App\Paper;
 use Image;
 use Storage;
@@ -47,6 +48,7 @@ class SubmissionController extends Controller
       $paper->author_phone = $request->phone;
 
       if($paper->save()){
+        Mail::to($paper->author_email)->send(new SubmittedEmail($paper))
         Session::flash('success', 'You have successfully submitted your paper. After submission of paper each author must register (Online/Offline).');
         return redirect()->route('submission.success');
       }
