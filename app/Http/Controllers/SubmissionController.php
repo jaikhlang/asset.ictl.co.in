@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\SubmittedEmail;
+use Mail;
 use App\Paper;
 use Image;
 use Storage;
