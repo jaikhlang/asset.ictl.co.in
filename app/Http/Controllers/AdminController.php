@@ -19,7 +19,7 @@ class AdminController extends Controller
     public function listRegistered(){
 
 
-      $all = User::orderBy('id', 'desc')->where('payment', 'paid')->paginate(400);
+      $all = User::orderBy('id', 'desc')->where('payment', 'paid')->distinct()->paginate(400);
 
       $students = User::orderBy('id', 'desc')->where('payment', 'paid')->where('category', 'student')->paginate(400);
 
