@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
 class HomeController extends Controller
 {
@@ -23,9 +24,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        if($this->middleware('role:superadministrator|administrator')){
+        $user = Auth::user();
+        if($user->hasRole(['superadministrator|administrator'])){
           return redirect()->route('registered');
+        }else{
+          return redirect()->route('events.registration');//return view('home');
         }
-        return redirect()->route('events.registration');//return view('home');
     }
 }

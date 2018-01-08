@@ -8,6 +8,6 @@ class Payment extends Model
 {
     //
     public function user(){
-      return $this->hasOne('App\User', 'user_id');
+      return $this->belongsTo('App\User');
     }
 }
