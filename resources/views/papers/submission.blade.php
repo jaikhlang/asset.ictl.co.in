@@ -23,6 +23,7 @@
                     {{ method_field('POST') }}
                     {{ csrf_field() }}
 
+                      {{--
                       <div class="input-field">
                         <label for="authorname" >Author Names <small>(Hit add button on right to add more author.)</small></label><button type="button" id="add" name="add" class="btn-floating red right"><i class="material-icons">add</i></button>
                         <br>
@@ -36,17 +37,22 @@
                           </li>
                           <!--button type="button" name="add" id="add" class="btn">Add More</button></li!-->
                         </ul>
+                      </div> --}}
+
+                      <div class="input-field" style="margin-top: 2.5rem;">
+                        <label for="authorname">Author Name</label>
+                        <input type="text" name="authorname" value="" placeholder="Full Name" class="validate" required>
                       </div>
 
-                      <div class="input-field" style="margin-top: 40px;">
+                      <div class="input-field" style="">
                         <label for="organisation" >Organisation </label>
                         <input type="text" name="organisation" placeholder="Organisation Name" id="organisation" class="validate" required/>
                       </div>
 
-                      <div class="input-field">
+                      <!--div class="input-field">
                         <label for="country" >Country </label>
                         <input type="text" name="country" placeholder="Country eg. India" id="country" class="autocomplete validate" required/>
-                      </div>
+                      </div-->
 
                       <div class="input-field">
                         <label for="address" >Address </label>
@@ -63,13 +69,8 @@
                         <input type="text" name="phone" placeholder="Contact" id="phone" class="validate" required/>
                       </div>
 
-                      <div class="input-field" >
-                        <textarea id="remarks" placeholder="Remarks/Message" class="materialize-textarea" class="validate"></textarea>
-                        <label for="remarks">Remarks</label>
-                      </div>
-
                       <div class="input-field">
-                        <label for="phone" >Paper Title </label>
+                        <label for="papertitle" >Paper Title </label>
                         <input type="text" name="papertitle" placeholder="Title of the paper." id="papertitle" class="validate" required/>
                       </div>
 
@@ -82,16 +83,20 @@
                           <input class="file-path validate" placeholder="(Acceptable file types (.docx/.doc))"  type="text" required>
                         </div>
                       </div>
+                      <div class="input-field" >
+                        <textarea id="remarks" name="remarks" placeholder="Remarks/Message" class="materialize-textarea" class="validate"></textarea>
+                        <label for="remarks">Remarks</label>
+                      </div>
                       <div class="divider"></div>
 
 
 
                     <p>
-                      <span class="white-text light"><a href="{{ url('author-guidelines') }}">Read Author Guidelines</a></span><br>
+                      <span class="white-text light"><a href="{{ route('pages.paper') }}#guides">Read Abstract Submission Guidelines</a></span><br>
                       <input type="checkbox" id="agreebtn" />
                       <label for="agreebtn">Yes!!</label>
-                      I have read the author guidelines <span class="green-text">&amp; ready to submit.</span></p>
-                    <button id="agreesubmit" type="submit" name="submit" class="btn blue  waves-effect waves-blue" disabled>Submit</button>
+                      I have read the submission guidelines <span class="green-text">&amp; ready to submit.</span></p>
+                    <button id="agreesubmit" type="submit" name="submit" class="btn btn-large blue  waves-effect waves-blue" disabled>Submit</button>
                   </form>
               </div>
             </div>
@@ -100,15 +105,12 @@
                   <div class=" ">
                       <h5 class="green-text">Paper Submission Through Email</h5>
                       <div class="divider"></div>
-                      <p class="left-align">Paper can also be sent through an email <span class="light teal-text"> ictl@cit.ac.in</span> in (.doc/.docx) format.</p>
-
-                      <br>
-                      <p>Or for offline submission of paper <a class="btn" href="{{ url('uploads/offlinesubmission.pdf') }}">DOWNLOAD OFFLINE FORM</a>.<br>Fill in and submit at Central Library, CIT Kokrajhar (Conference Hall)</p>
+                      <p class="left-align">Paper can also be sent through an email <span class="light teal-text"> asset.2k18@gmail.com</span> in (.doc/.docx) format.</p>
                   </div>
             </div>
 
             <div class="col s12 m12 center">
-                <p class="grey-text light"> For any difficulties/broken links/errors kindly report us at ictl@cit.ac.in.</p>
+                <p class="grey-text light"> For any difficulties/broken links/errors kindly report us at asset.2k18@gmail.com.</p>
             </div>
         </div>
     </div>

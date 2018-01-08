@@ -8,6 +8,8 @@
           Home</a></li>
         <li><a class="grey-text text-darken-1 {{ Request::is(route('pages.paper')) ? "active" : ""}}" href="{{ route('pages.paper') }}">
           Call for Paper</a></li>
+        <li><a class="grey-text text-darken-1 {{ Request::is(route('submission')) ? "active" : ""}}" href="{{ route('submission') }}">
+          Submission</a></li>
         <li><a class="grey-text text-darken-1 {{ Request::is(route('events.registration')) ? "active" : ""}}" href="{{ route('events.registration') }}">
           Registration</a></li>
         <li><a class="grey-text text-darken-1 {{ Request::is(route('events.committee')) ? "active" : ""}}" href="{{ route('events.committee') }}">
@@ -48,6 +50,8 @@
           Home</a></li>
         <li><a class="white-text text-darken-1 {{ Request::is(route('pages.paper')) ? "active" : ""}}" href="{{ route('pages.paper') }}">
           Call for Paper</a></li>
+        <li><a class="grey-text text-darken-1 {{ Request::is(route('submission')) ? "active" : ""}}" href="{{ route('submission') }}">
+          Submission</a></li>
         <li><a class="white-text text-darken-1 {{ Request::is(route('events.registration')) ? "active" : ""}}" href="{{ route('events.registration') }}">
           Registration</a></li>
         <li><a class="white-text text-darken-1 {{ Request::is(route('events.committee')) ? "active" : ""}}" href="{{ route('events.committee') }}">

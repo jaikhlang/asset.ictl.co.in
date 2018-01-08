@@ -17,6 +17,17 @@
         <span class="center grey-text text-darken-1">Hey #{{ $user->name }}, your registration is almost complete. Proceed with Payment.</span>
       </div>
       <div class="clearfix"></div>
+
+      <div class="col s12 m12">
+        <div class="card-panel">
+          <span>
+            <a href="{{ route('paper.submit') }}" class="btn btn-wave wave-light red">Have a paper to submit? Submit Now</a>
+          </span>
+          <span class="green-text">
+            &nbsp;&nbsp; Paper on acceptance, notification mail will be sent to your email.
+          </span>
+        </div>
+      </div>
       <div class="col s12 m6">
         <div class="card-panel white z-depth-0">
           <strong class="blue-text">Registration Fee</strong>
@@ -36,15 +47,17 @@
         </div>
       </div>
       <div class="col s12 m6">
-        <div class="card-panel z-depth-0 details-provided">
-          <strong class="blue-text">Details Provided</strong>
-            <span>{{ $user->name }}</span>
+        <div class="card-panel white-text blue z-depth-1 details-provided">
+          <strong class="white-text">Details Provided</strong>
+          <div class="divider"></div><br>
+            <strong>Name:</strong>
+            <span style="padding-left: .8rem;">{{ $user->name }}</span>
             <strong>Address:</strong>
-            <span>{{ $user->address }} {{ $user->pin }}</span>
+            <span style="padding-left: .8rem;">{{ $user->address }} {{ $user->pin }}</span>
             <strong>Email:</strong>
-            <span>{{ $user->email }}</span>
+            <span style="padding-left: .8rem;">{{ $user->email }}</span>
             <strong>Phone:</strong>
-            <span>{{ $user->phone }}</span>
+            <span style="padding-left: .8rem;">{{ $user->phone }}</span>
           </form>
         </div>
       </div>

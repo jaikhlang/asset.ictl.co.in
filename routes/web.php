@@ -19,7 +19,8 @@ Route::get('/events-about-conference-venue', 'PageController@knowAbout')->name('
 Route::get('/events-asset-conference-sponsor', 'PageController@sponsor')->name('events.sponsor');
 //Paper Submission
 Route::get('/paper-submission', 'SubmissionController@submission')->name('submission');
-Route::post('/paper-submission', 'SubmissionController@submitPaper')->name('paper.submit');
+Route::post('/paper-submission', 'SubmissionController@postPaper')->name('paper.submit');
+Route::get('/paper-submission-success', 'SubmissionController@success')->name('submission.success');
 
 Route::prefix('participation')->group(function(){
   //Registration Page
