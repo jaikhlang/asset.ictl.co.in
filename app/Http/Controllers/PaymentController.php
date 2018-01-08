@@ -94,8 +94,7 @@ class PaymentController extends Controller
             //Gateway fee
             $payment->gateway_fees = $paidDetails->fees;
 
-            /*
-
+            /* Uncomment if not using webhook
             if($payment->save()){
                 $user->payment_request_id = $paymentDetails->id;
                 $user->payment = "paid";

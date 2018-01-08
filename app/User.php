@@ -11,6 +11,10 @@ class User extends Authenticatable
     use LaratrustUserTrait;
     use Notifiable;
 
+    public function pay(){
+      return $this->belongsTo('App\Payment', 'payment_id');
+    }
+
     /**
      * The attributes that are mass assignable.
      *
@@ -28,8 +32,4 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-
-    public function payment(){
-      return $this->belongsTo('App\Payment');
-    }
 }

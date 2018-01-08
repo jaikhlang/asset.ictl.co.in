@@ -44,6 +44,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //backend
+Route::get('/admin', function(){
+  return redirect()->route('registered');
+});
 Route::prefix('backend')->group(function(){
   Route::get('/registered-delegates', 'AdminController@listRegistered')->name('registered');
+  Route::post('create-excel', 'AdminController@createexcel')->name('create.excel');
 });

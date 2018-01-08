@@ -23,6 +23,9 @@ class HomeController extends Controller
      */
     public function index()
     {
+        if($this->middleware('role:superadministrator|administrator')){
+          return redirect()->route('registered');
+        }
         return redirect()->route('events.registration');//return view('home');
     }
 }
