@@ -157,7 +157,6 @@
                     <th>Name</th>
                     <th>Address</th>
                     <th>Contacts</th>
-                    <th>Category</th>
                     <th>PaymentID</th>
                   </tr>
                 </thead>
@@ -173,7 +172,6 @@
                           {{ $other->pin }}</td>
 
                       <td>{{ $other->email }} <br> {{ $other->phone }}</td>
-                      <td>{{ $other->category }}</td>
                       <td>
                         #{{ $other->payment_id }}<br>
                         {{ $other->pay->payment_id }}</td>
@@ -195,7 +193,6 @@
                     <th>Name</th>
                     <th>Address</th>
                     <th>Contacts</th>
-                    <th>Category</th>
                     <th>PaymentID</th>
                   </tr>
                 </thead>
@@ -211,7 +208,6 @@
                           {{ $researcher->pin }}</td>
 
                       <td>{{ $researcher->email }} <br> {{ $researcher->phone }}</td>
-                      <td>{{ $researcher->category }}</td>
                       <td>
                         #{{ $researcher->payment_id }}<br>
                         {{ $researcher->pay->payment_id }}</td>
@@ -233,7 +229,6 @@
                     <th>Name</th>
                     <th>Address</th>
                     <th>Contacts</th>
-                    <th>Category</th>
                     <th>PaymentID</th>
                   </tr>
                 </thead>
@@ -249,7 +244,6 @@
                           {{ $academician->pin }}</td>
 
                       <td>{{ $academician->email }} <br> {{ $academician->phone }}</td>
-                      <td>{{ $academician->category }}</td>
                       <td>
                         #{{ $academician->payment_id }}<br>
                         {{ $academician->pay->payment_id }}</td>
@@ -271,7 +265,6 @@
                     <th>Name</th>
                     <th>Address</th>
                     <th>Contacts</th>
-                    <th>Category</th>
                     <th>PaymentID</th>
                   </tr>
                 </thead>
@@ -287,7 +280,6 @@
                           {{ $corporate->pin }}</td>
 
                       <td>{{ $corporate->email }} <br> {{ $corporate->phone }}</td>
-                      <td>{{ $corporate->category }}</td>
                       <td>
                         #{{ $corporate->payment_id }}<br>
                         {{ $corporate->pay->payment_id }}</td>
@@ -310,7 +302,6 @@
                     <th>Address</th>
                     <th>Contacts</th>
                     <th>Category</th>
-                    <th>PaymentID</th>
                   </tr>
                 </thead>
                 <tbody>
