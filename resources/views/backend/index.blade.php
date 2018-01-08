@@ -119,7 +119,6 @@
                     <th>Name</th>
                     <th>Address</th>
                     <th>Contacts</th>
-                    <th>Category</th>
                     <th>PaymentID</th>
                   </tr>
                 </thead>
@@ -135,7 +134,6 @@
                           {{ $student->pin }}</td>
 
                       <td>{{ $student->email }} <br> {{ $student->phone }}</td>
-                      <td>{{ $student->category }}</td>
                       <td>
                         #{{ $student->payment_id }}<br>
                         {{ $student->pay->payment_id }}</td>
