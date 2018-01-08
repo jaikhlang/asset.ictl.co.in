@@ -287,7 +287,7 @@
                           {{ $corporate->pin }}</td>
 
                       <td>{{ $corporate->email }} <br> {{ $corporate->phone }}</td>
-                      <td>{{ $corporate->user->category }}</td>
+                      <td>{{ $corporate->category }}</td>
                       <td>
                         #{{ $corporate->payment_id }}<br>
                         {{ $corporate->pay->payment_id }}</td>
