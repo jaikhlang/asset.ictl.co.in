@@ -50,7 +50,6 @@
             <li class="tab"><a href="#academician">Academician</a></li>
             <li class="tab"><a href="#corporate">Corporation/Industry</a></li>
             <li class="tab"><a href="#unpaid">Unpaids</a></li>
-            <li class="tab"><a href="{{ route('create.excel')}}">Create Excel</a></li>
           </ul>
         </div>
       </nav>
@@ -93,20 +92,21 @@
                     <?php $total = $total + $delegate->pay->amount; $fee = $fee + $delegate->pay->gateway_fees;?>
                   @endforeach
                   <tr>
-                      <td>&nbsp;</td>
+                      <td><a href="{{ route('create.excel')}}">Create Excel</a></td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>
                         Total =
                       </td>
-                      <td>{{ $total }}.00 &nbsp; <span class="grey-text">{{ $fee }}.00</span></td>
-                      <td><span class="red-text">{{ $total }}.00 - {{ $fee }}.00 = {{ $total-$fee }}.00</span></td>
+                      <td>{{ $total }} &nbsp; <span class="grey-text">{{ $fee }}</span></td>
+                      <td><span class="red-text">{{ $total }} - {{ $fee }} = {{ $total-$fee }}</span></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
+
         </div>
 
         <div class="section" id="student">

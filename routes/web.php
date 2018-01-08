@@ -49,5 +49,5 @@ Route::get('/admin', function(){
 });
 Route::prefix('backend')->group(function(){
   Route::get('/registered-delegates', 'AdminController@listRegistered')->name('registered');
-  Route::post('create-excel', 'AdminController@createexcel')->name('create.excel');
+  Route::get('create-excel', 'AdminController@createexcel')->name('create.excel');
 });
