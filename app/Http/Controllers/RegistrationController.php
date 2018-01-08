@@ -83,9 +83,9 @@ class RegistrationController extends Controller
 
     public function success($id){
       $payment = Payment::get()->where('request_id', $id)->first();
-      dd($payment);
+      //dd($payment);
       $user = $payment->user;
-      dd($user);
+      //dd($user);
       return view('payments.success')->withUser($user);
     }
 
