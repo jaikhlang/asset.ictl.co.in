@@ -21,12 +21,35 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .marquee-parent {
+    position: relative;
+    overflow: hidden;
+    height: 22px;
+  }
+  .marquee-child {
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 22px;
+  }
+  .marquee-child:hover {
+    cursor: pointer;
+  }
   </style>
   <link href="{{ asset('css/owl.carousel.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{ asset('css/swiper.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 @endsection
 
 @section('content')
+  <div class="orange">
+    <div class="container marquee-parent">
+      <marquee behavior="" direction="" scrollamount="5" class="marquee-child" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="" class="white-text">Note: Currently online registration mode is not up, It will be up soon. Meanwhile you can register in offline mode.</a>
+        <a href="{{ route('submission') }}" class="white-text">Abstract submission deadline is 31st January 2018. Submit your paper now. </a>
+      </marquee>
+    </div>
+  </div>
+  <div class="clearfix"></div>
   <!-- Carousels -->
   <section class="page-carousel">
     <div class="carousel carousel-slider center" data-indicators="true">
@@ -642,7 +665,11 @@
                       <div class="card-content tab-content">
                           <span class="card-title">PAPER SUBMISSION</span>
                           <div class="divider"></div>
-                          <p>You can submit your paper through an email <strong class="chip">asset.2k18@gmail.com</strong>.
+                          <p>
+                            You can submit your paper through an email <strong class="chip">asset.2k18@gmail.com</strong>.
+                            <br><br>
+                            Or upload here <a href="{{ route('submission') }}" class="btn white blue-text">Submission</a>
+                          </p>
 
                       </div>
                     </div>
