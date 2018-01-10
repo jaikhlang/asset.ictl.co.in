@@ -139,7 +139,10 @@
                   </div>
 
                   <div class="card-panel white">
-                    Poster Size: (3x5) feet
+                    <h5>Download Templates</h5>
+                    <span><a href="{{ asset('uploads/template-proceeding-paper.docx') }}" class="btn wave blue light-wave" style="width:100%">Proceeding Paper Template</a></span><br/><br/>
+                    <span><a href="{{ asset('uploads/template-for-poster.pdf') }}" class="btn wave blue light-wave" style="width:100%">Template For Poster</a></span><br/><br/>
+                    <span>Poster Size: (38x50) inches</span>
                     {{--
                     <p class="red-text">After submission of paper each author must register (Online/Offline).</p>
                     <p class="light">Registration to ICTL17 is simple. You can either register online or offline. For online registration go through <a href="{{ url('http://ictl.co.in/registration') }}"> http://ictl.co.in/registration </a> and for offline registration, download offline registration form from (<a href="{{ asset('uploads/registrationform.pdf') }}">here.</a>) Fill in the forms and send us at ictl@cit.ac.in.</p>

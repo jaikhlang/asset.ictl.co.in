@@ -581,9 +581,9 @@
                     <!-- Call For Paper -->
                     <div id="call-for-paper" class="card-panel white lighten-5 z-depth-1">
                         <div class="card-content tab-content">
-                          <div class="">
+                          <!--div class="">
                               <img src="{{ asset('images/award.jpg') }}" style="width: 100%">
-                          </div>
+                          </div-->
                             <span class="card-title">CALL FOR PAPER-AUTHOR GUIDELINES</span>
                             <div class="divider"></div>
                             <h5 class="header">Abstracts Submission Guidelines</h5>
@@ -625,7 +625,12 @@
                                   <span class="red-text"><i class="fa fa-circle"></i></span> Earth and Atmospheric Science<br>
                                 </div>
                               </div>
+                            </p>
                             <div class="divider"></div>
+                            <p class="light">
+                              <h5 class="header">Templates</h5>
+                              <span>Proceeding Paper Template <a href="{{ asset('uploads/template-proceeding-paper.docx') }}" class="btn wave light-wave">Download</a></span> &amp; <span>Template For Poster <a href="{{ asset('uploads/template-for-poster.pdf') }}" class="btn wave light-wave">Download</a></span>
+                            </p>
 
                             <p class="green-text">All accepted full papers will be published in the conference proceedings or UGC journal with ISBN number.</p>
                         </div>
