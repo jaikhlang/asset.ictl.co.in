@@ -34,25 +34,6 @@
           </li>
           @endrole
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li class="tab"><a class="active" href="#all">All</a></li>
-          <li class="tab"><a href="#student">Student (BU & CIT)</a></li>
-          <li class="tab"><a href="#others">Student (Others)</a></li>
-          <li class="tab"><a href="#researcher">Researcher</a></li>
-          <li class="tab"><a href="#academician">Academician</a></li>
-          <li class="tab"><a href="#corporate">Corporation/Industry</a></li>
-        </ul>
-      </div>
-      <div class="nav-content">
-        <ul class="tabs tabs-transparent">
-          <li class="tab"><a class="active" href="#all">All</a></li>
-          <li class="tab"><a href="#student">Student (BU & CIT)</a></li>
-          <li class="tab"><a href="#others">Student (Others)</a></li>
-          <li class="tab"><a href="#researcher">Researcher</a></li>
-          <li class="tab"><a href="#academician">Academician</a></li>
-          <li class="tab"><a href="#corporate">Corporation/Industry</a></li>
-          <li class="tab"><a href="#unpaid">Unpaids</a></li>
-        </ul>
       </div>
     </nav>
 
