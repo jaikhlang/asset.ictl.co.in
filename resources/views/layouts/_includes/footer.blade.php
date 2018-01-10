@@ -27,7 +27,7 @@
         <h5 class="white-text">&nbsp;</h5>
         <ul>
           <li><a class="white-text" href="{{ route('pages.paper') }}">Call For Paper</a></li>
-          <li><a class="white-text" href="{{ route('events.registration') }}">Paper Submission</a></li>
+          <li><a class="white-text" href="{{ route('submission') }}">Paper Submission</a></li>
           <li><a class="white-text" href="{{ route('events.registration') }}">Registration</a></li>
         </ul>
       </div>
