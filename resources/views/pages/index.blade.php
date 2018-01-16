@@ -44,7 +44,7 @@
   <div class="orange">
     <div class="container marquee-parent">
       <marquee behavior="" direction="" scrollamount="5" class="marquee-child" onmouseover="this.stop()" onmouseout="this.start()">
-        <a href="" class="white-text">Note: Currently online registration mode is not up, It will be up soon. Meanwhile you can register in offline mode.</a>
+        <a href="{{ route('events.registration') }}" class="white-text">Register online now. Registratio deadline is 31<sup>st</sup> January 2018.</a>
         <a href="{{ route('submission') }}" class="white-text">Abstract submission deadline is 31st January 2018. Submit your paper now. </a>
       </marquee>
     </div>
@@ -63,7 +63,7 @@
         <img src="{{ asset('image/banner/s-1.jpg') }}" alt="">
       </div>
       <div class="carousel-item amber white-text" href="#two!">
-        <img src="{{ asset('image/banner/s-3.jpg') }}" alt="">
+        <img src="{{ asset('image/banner/s-4.jpg') }}" alt="">
       </div>
     </div>
   </section>

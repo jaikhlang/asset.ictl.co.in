@@ -5,7 +5,7 @@
       <div class="col l6 s12">
         <h5 class="white-text">ASSET 2018</h5>
         <p class="grey-text text-lighten-4 valign-wrapper">
-          <span><img src="{{ asset('http://assamsciencesociety.org/images/ass-logo.jpg') }}" alt=""></span>
+          <span><img src="{{ asset('image/logos/ass.jpg') }}" alt=""></span>
           <span style="margin-left: 1.5rem;">
             <span>63<sup>rd</sup> Annual Technical Session of Assam Science Society, 2018.</span>
             <span><u>“National Conference on Applied Sciences, Sustainable and Evolving Technologies”</u></span>

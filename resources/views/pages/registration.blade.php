@@ -18,7 +18,7 @@
       <div class="container">
           <div class="row">
               <div class="col s12 m12" style="padding-bottom: 1.5rem;">
-                <span class="red-text chip white z-depth-1"><strong>Note:</strong> Currently online registration mode is not up, It will be up soon. Meanwhile you can register in offline mode.</span>
+                <span class="red-text chip white z-depth-1">Register online or offline before 31st January 2018.</span>
                 @if(Auth::check())
                   <span>You have already submitted!! Proceed with payment if not done.</span>
                 @endif
@@ -106,7 +106,7 @@
                         <label for="password">Set Password (10 characters only)</label>
                         <input name="password" id="password" type="password" class="validate" required/>
                         <p class="red-text light">All the fields are required.</p><br>
-                        <button class="btn waves-effect blue waves-blue" disabled>Register Now</button>
+                        <button class="btn waves-effect blue waves-blue">Register Now</button>
                         <!--button type="button" class="btn waves-effect blue waves-blue" onclick="serviceUnavailable()">Register Now</button>
                         <span class="red-text" id="warningMsg"></span-->
                       </form>
