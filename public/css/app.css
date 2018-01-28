@@ -13123,9 +13123,22 @@ nav {
   border-radius: 4px;
   width: 100%;
   background: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
 }
 
-#commitee .advisors .advisor-list span {
+#commitee .advisors .advisor-list .advisor-list-item {
+  vertical-align: middle;
+  padding: .6rem;
+}
+
+#commitee .advisors .advisor-list .advisor-list-item img {
+  border-radius: 50%;
+}
+
+#commitee .advisors .advisor-list .advisor-list-item span {
   display: block;
 }
 

@@ -226,9 +226,19 @@ nav{
         border-radius: 4px;
         width: 100%;
         background: whitesmoke;
+        display: flex;
+        vertical-align: middle;
       }
-      span{
-        display: block;
+      .advisor-list-item{
+        vertical-align: middle;
+        padding: .6rem;
+        img{
+          //margin: .6rem .6rem .6rem 0rem;
+          border-radius: 50%;
+        }
+        span{
+          display: block;
+        }
       }
     }
 

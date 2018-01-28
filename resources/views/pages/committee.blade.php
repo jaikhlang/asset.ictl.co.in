@@ -65,43 +65,123 @@
 
             <div class="col s12 m6">
               <ul class="advisor-list">
-                <li><strong>Dr. H Kharkwal</strong>
-                  <span>Joint Director, Ministry of Environment, Forest and Climate Change Indira Paryavaran Bhawan, New Delhi.</span></li>
-                <li><strong>Prof. Bhupendra Nath Goswami</strong>
-                  <span>(Former Director,Indian Institute of Tropical Meteorology (IITM); Shanti Swarup Bhatnagar awardee), Pune</span></li>
-                <li><strong>Prof.Dhiraj Bora</strong>
-                  <span>Vice Chancellor, Assam Science Technical University, Guwahati</span></li>
-                <li><strong>Prof. Khanindra Pathak</strong>
-                  <span>Department of Mining Engineering, IIT Kharagpur</span></li>
-                <li><strong>Prof. S N Naik</strong>
-                  <span>Department of Center for Rural Development and Technology, IIT Kharagpur</span></li>
-                <li><strong>Prof. Nikhil Kumar Singha</strong>
-                  <span>(Professor in Rubber Technology, IIT Kharagpur)</span></li>
-                <li><strong>Prof. Dilip Kumar Kakati</strong>
-                  <span>Department of Chemistry, Gauhati University, Guwahati</span></li>
-                <li><strong>Prof. Monomoy Goswami</strong>
-                  <span>Department of Civil Engineering, CIT Kokrajhar</span></li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/avatar96x96.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Dr. H Kharkwal</strong>
+                    <span>Joint Director, Ministry of Environment, Forest and Climate Change Indira Paryavaran Bhawan, New Delhi.</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/goswami.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Bhupendra Nath Goswami</strong>
+                    <span>(Former Director,Indian Institute of Tropical Meteorology (IITM); Shanti Swarup Bhatnagar awardee), Pune</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/dhiraj.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof.Dhiraj Bora</strong>
+                    <span>Vice Chancellor, Assam Science Technical University, Guwahati</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/khanindra.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Khanindra Pathak</strong>
+                    <span>Department of Mining Engineering, IIT Kharagpur</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/naik.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. S N Naik</strong>
+                    <span>Department of Center for Rural Development and Technology, IIT Kharagpur</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/nikhil.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Nikhil Kumar Singha</strong>
+                    <span>(Professor in Rubber Technology, IIT Kharagpur)</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/dilip.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Dilip Kumar Kakati</strong>
+                    <span>Department of Chemistry, Gauhati University, Guwahati</span>
+                  </span>
+                  </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/monmoy.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Monomoy Goswami</strong>
+                    <span>Department of Civil Engineering, CIT Kokrajhar</span>
+                  </span>
+                </li>
               </ul>
             </div>
 
             <div class="col s12 m6">
               <ul class="advisor-list">
-                <li><strong>Prof. Hemanta Kumar Kalita</strong>
-                  <span>Department of Computer Science and Engineering, &nbsp; CIT Kokrajhar</span></li>
-                <li><strong>Prof. Uday S Dixit</strong>
-                  <span>Department of Mechanical Engineering, IIT Guwahati</span></li>
-                <li><strong>Prof. Ramesh Ch. Deka</strong>
-                  <span>Department of Chemical Sciences, Tezpur University</span></li>
-                <li><strong>Prof. B K Das</strong>
-                  <span>Department of Chemistry, Gauhati University</span></li>
-                <li><strong>Prof. Madhurjya P Bora</strong>
-                  <span>Department of Physics, Gauhati University</span></li>
-                <li><strong>Dr. Arup Kumar Misra</strong>
-                  <span>Director, Assam Science Technology &amp; Environment Council, Guwahati</span></li>
-                <li><strong>Dr. B. P. Patro</strong>
-                  <span>Director, Central Institute of Plastics Engineering &amp; Technology, Guwahati</span></li>
-                <li><strong>Prof. Nirmalendu Saha</strong>
-                  <span>Department of Zoology, North Eastern Hills University, &nbsp; Shillong</span></li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/hemanta.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Hemanta Kumar Kalita</strong>
+                    <span>Department of Computer Science and Engineering, &nbsp; CIT Kokrajhar</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/uday.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Uday S Dixit</strong>
+                    <span>Department of Mechanical Engineering, IIT Guwahati</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/ramesh.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Ramesh Ch. Deka</strong>
+                    <span>Department of Chemical Sciences, Tezpur University</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/brinchi.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. B K Das</strong>
+                    <span>Department of Chemistry, Gauhati University</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/madhurjya.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Madhurjya P Bora</strong>
+                    <span>Department of Physics, Gauhati University</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/arup.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Dr. Arup Kumar Misra</strong>
+                    <span>Director, Assam Science Technology &amp; Environment Council, Guwahati</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/patro.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Dr. B. P. Patro</strong>
+                    <span>Director, Central Institute of Plastics Engineering &amp; Technology, Guwahati</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="advisor-list-item"><img src="{{ asset('image/profile/nirmalendu.jpg') }}" alt="" class="thumbnail"></span>
+                  <span class="advisor-list-item">
+                    <strong>Prof. Nirmalendu Saha</strong>
+                    <span>Department of Zoology, North Eastern Hills University, &nbsp; Shillong</span>
+                  </span>
+                </li>
               </ul>
             </div>
 
@@ -198,7 +278,7 @@
           <div class="clearfix"></div>
 
           <div class="manager white center">
-            <a href="{{ url('//4btechnologies.in') }}">
+            <a href="{{ url('http://www.4btechnologies.in') }}">
               <span class="grey-text">Managed By | &nbsp;</span><img src="{{ asset('image/manager.png') }}" style="width: 20%"/>
             </a>
           </div>
