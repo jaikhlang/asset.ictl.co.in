@@ -141,7 +141,7 @@
                   <div class="card-panel white">
                     <h5>Download Templates</h5>
                     <span><a href="{{ asset('uploads/template-proceeding-paper.docx') }}" class="btn wave blue light-wave" style="width:100%">Proceeding Paper Template</a></span><br/><br/>
-                    <span><a href="{{ asset('uploads/template-for-poster.pdf') }}" class="btn wave blue light-wave" style="width:100%">Template For Poster</a></span><br/><br/>
+                    <span><a href="{{ asset('uploads/template-for-poster.ppt') }}" class="btn wave blue light-wave" style="width:100%">Template For Poster</a></span><br/><br/>
                     <span>Poster Size: (38x50) inches</span>
                     {{--
                     <p class="red-text">After submission of paper each author must register (Online/Offline).</p>
