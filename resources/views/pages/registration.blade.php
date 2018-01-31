@@ -18,7 +18,7 @@
       <div class="container">
           <div class="row">
               <div class="col s12 m12" style="padding-bottom: 1.5rem;">
-                <span class="red-text chip white z-depth-1">Register online or offline before 31st January 2018.</span>
+                <span class="red-text chip white z-depth-1">Register online or offline before 10th February 2018.</span>
                 @if(Auth::check())
                   <span>You have already submitted!! Proceed with payment if not done.</span>
                 @endif
