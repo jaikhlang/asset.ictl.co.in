@@ -44,8 +44,8 @@
   <div class="orange">
     <div class="container marquee-parent">
       <marquee behavior="" direction="" scrollamount="5" class="marquee-child" onmouseover="this.stop()" onmouseout="this.start()">
-        <a href="{{ route('events.registration') }}" class="white-text">Register online now. Registratio deadline is 31<sup>st</sup> January 2018.</a>
-        <a href="{{ route('submission') }}" class="white-text">Abstract submission deadline is 31st January 2018. Submit your paper now. </a>
+        <a href="{{ route('events.registration') }}" class="white-text">Register online now. Registration deadline has been extended till 10<sup>th</sup> February 2018.</a>
+        <a href="{{ route('submission') }}" class="white-text">Abstract submission deadline has been extended till 10<sup>th</sup> February 2018. Submit your paper now. </a>
       </marquee>
     </div>
   </div>
@@ -308,9 +308,9 @@
                           <span class="card-title">IMPORTANT DATES</span>
                           <div class="divider"></div>
                           <p>Conference Date: <span><strong> 9th, 10th, &amp; 11th March 2018.</strong></span></p>
-                          <p>Registration Deadline: <span><strong> 31st January 2018</strong></span></p>
-                          <p>Abstract Submission Deadline: <span><strong> 31st January 2018</strong></span></p>
-                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 09th February 2018</strong></span></p>
+                          <p>Registration Deadline: <span><strong> 10th February 2018</strong></span></p>
+                          <p>Abstract Submission Deadline: <span><strong> 10th February 2018</strong></span></p>
+                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 10th February 2018</strong></span></p>
                       </div>
                     </div>
 

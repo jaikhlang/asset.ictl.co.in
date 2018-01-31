@@ -117,7 +117,7 @@
                 <div class="card-panel white lighten-5 z-depth-0">
                     <h5>Registration Guidelines</h5>
                     <p><span class="red-text"><i class="fa fa-circle-o"></i></span> Registration Fee </p>
-                    <span>Register now!! Deligates registering after 31<sup>st</sup> January 2018, will have to pay additional Rs. 500/- as late fee.</span>
+                    <span>Register now!! Deligates registering after 10<sup>th</sup> February 2018, will have to pay additional Rs. 500/- as late fee.</span>
                     <ul class="registration-fee">
                       <li>
                         <span>1. Students (CIT &amp; BU) only</span>
