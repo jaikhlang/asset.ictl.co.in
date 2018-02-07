@@ -42,6 +42,8 @@ class AdminController extends Controller
       $corporates = User::orderBy('id', 'desc')->where('payment', 'paid')->where('category', 'corporate')->paginate(400);
       $unpaids = User::orderBy('id', 'desc')->where('payment', 'unpaid')->paginate(400);
 
+      dd($all);
+
       return view('backend.index')->withAll($all)
                                   ->withStudents($students)
                                   ->withOtherstudents($otherstudents)
