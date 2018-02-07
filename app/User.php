@@ -12,7 +12,7 @@ class User extends Authenticatable
     use Notifiable;
 
     public function pay(){
-      return $this->hasMany('App\Payment');
+      return $this->hasOne('App\Payment');
     }
 
     /**
