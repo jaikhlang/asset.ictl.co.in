@@ -85,7 +85,7 @@
 
                       <td>{{ $delegate->email }} <br> {{ $delegate->phone }}</td>
                       <td>{{ $delegate->category }}</td>
-                      <td><span class="grey-text">{{ $delegate->pay->gateway_fees }}</span></td>
+                      <td>{{ $delegate->pay->amount }} &nbsp; <span class="grey-text">{{ $delegate->pay->gateway_fees }}</span></td>
                       <td>
                         #{{ $delegate->payment_id }}<br>
                         {{ $delegate->pay->payment_id }}</td>
