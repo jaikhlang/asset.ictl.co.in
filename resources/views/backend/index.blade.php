@@ -72,39 +72,7 @@
                     <th>PaymentID</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <?php $i = 1; $total = 0; $fee = 0; ?>
-                  @foreach ($all as $delegate)
-                    <tr>
-                      <td>{{ $i++ }}</td>
-                      <td>{{ $delegate->name }}</td>
-                      <td>
-                          #{{ $delegate->organisation }}<br>
-                          {{ $delegate->address }}
-                          {{ $delegate->pin }}</td>
-
-                      <td>{{ $delegate->email }} <br> {{ $delegate->phone }}</td>
-                      <td>{{ $delegate->category }}</td>
-                      <td>{{ $delegate->pay->amount }} &nbsp; <span class="grey-text">{{ $delegate->pay->gateway_fees }}</span></td>
-                      <td>
-                        #{{ $delegate->payment_id }}<br>
-                        {{ $delegate->pay->payment_id }}</td>
-                    </tr>
-
-                    <?php $total = $total + $delegate->pay->amount; $fee = $fee + $delegate->pay->gateway_fees;?>
-                  @endforeach
-                  <tr>
-                      <td><a href="{{ route('create.excel.registered')}}">Create Excel Sheet</a></td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>
-                        Total =
-                      </td>
-                      <td>{{ $total }} &nbsp; <span class="grey-text">{{ $fee }}</span></td>
-                      <td><span class="red-text">{{ $total }} - {{ $fee }} = {{ $total-$fee }}</span></td>
-                  </tr>
-                </tbody>
+                
               </table>
             </div>
           </div>
