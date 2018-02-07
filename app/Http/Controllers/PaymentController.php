@@ -134,7 +134,7 @@ class PaymentController extends Controller
 
       // You can get the 'salt' from Instamojo's developers page(make sure to log in first): https://www.instamojo.com/developers
       // Pass the 'salt' without the <>.
-      $mac_calculated = hash_hmac("sha1", implode("|", $data), "f224e6d5f31a49f7a32bf50db1b26413");
+      $mac_calculated = hash_hmac("sha1", implode("|", $data), "e3d4be7a40574fe4b3b442653ada4893");
 
       if($mac_provided == $mac_calculated){
           //echo "MAC is fine";
