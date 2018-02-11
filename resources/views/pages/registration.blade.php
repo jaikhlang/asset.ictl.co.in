@@ -18,7 +18,7 @@
       <div class="container">
           <div class="row">
               <div class="col s12 m12" style="padding-bottom: 1.5rem;">
-                <span class="red-text chip white z-depth-1">Register online or offline before 10th February 2018.</span>
+                <span class="red-text chip white z-depth-1">Register online or offline before 20th February 2018.</span>
                 @if(Auth::check())
                   <span>You have already submitted!! Proceed with payment if not done.</span>
                 @endif
@@ -117,7 +117,7 @@
                 <div class="card-panel white lighten-5 z-depth-0">
                     <h5>Registration Guidelines</h5>
                     <p><span class="red-text"><i class="fa fa-circle-o"></i></span> Registration Fee </p>
-                    <span>Register now!! Deligates registering after 10<sup>th</sup> February 2018, will have to pay additional Rs. 500/- as late fee.</span>
+                    <span>Register now!! Deligates registering after 20<sup>th</sup> February 2018, will have to pay additional Rs. 500/- as late fee.</span>
                     <ul class="registration-fee">
                       <li>
                         <span>1. Students (CIT &amp; BU) only</span>

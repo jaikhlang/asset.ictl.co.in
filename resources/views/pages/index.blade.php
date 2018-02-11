@@ -44,8 +44,8 @@
   <div class="orange">
     <div class="container marquee-parent">
       <marquee behavior="" direction="" scrollamount="5" class="marquee-child" onmouseover="this.stop()" onmouseout="this.start()">
-        <a href="{{ route('events.registration') }}" class="white-text">Register online now. Registration deadline has been extended till 10<sup>th</sup> February 2018.</a>
-        <a href="{{ route('submission') }}" class="white-text">Abstract submission deadline has been extended till 10<sup>th</sup> February 2018. Submit your paper now. </a>
+        <a href="{{ route('events.registration') }}" class="white-text">Register online now. Registration deadline has been extended till 20<sup>th</sup> February 2018.</a>
+        <a href="{{ route('submission') }}" class="white-text">Abstract submission deadline has been extended till 20<sup>th</sup> February 2018. Submit your paper now. </a>
       </marquee>
     </div>
   </div>
@@ -298,7 +298,6 @@
                           <br><br>
                           <div class="divider"></div>
                           <p>Mark Your Calendar. We Are Begining Soon.</p>
-                          <a href="{{ url('/notice-lists') }}" class="btn orange">notices</a>
                       </div>
                     </div>
 
@@ -308,9 +307,9 @@
                           <span class="card-title">IMPORTANT DATES</span>
                           <div class="divider"></div>
                           <p>Conference Date: <span><strong> 9th, 10th, &amp; 11th March 2018.</strong></span></p>
-                          <p>Registration Deadline: <span><strong> 10th February 2018</strong></span></p>
-                          <p>Abstract Submission Deadline: <span><strong> 10th February 2018</strong></span></p>
-                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 10th February 2018</strong></span></p>
+                          <p>Registration Deadline: <span><strong> 20th February 2018</strong></span></p>
+                          <p>Abstract Submission Deadline: <span><strong> 20th February 2018</strong></span></p>
+                          <p>Paper Acceptance Letter (via e-mail): <span> <strong> 20th February 2018</strong></span></p>
                       </div>
                     </div>
 
@@ -611,7 +610,7 @@
                             <div class="divider"></div>
                             <h5 class="header">Abstracts Submission Guidelines</h5>
                             <div class="teal-text text-justified">
-                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 10th February 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
+                              The abstract of paper (not exceeding 200 words), should be submitted to <strong class="chip black-text">asset.2k18@gmail.com</strong> by 20th February 2018. The decision of the organizing committee for the acceptance/rejection will be final. The authors are requested to submit their abstract in the following
                               format.
                             </div>
                             <div class="">
