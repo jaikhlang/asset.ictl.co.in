@@ -266,7 +266,7 @@
 
     </div>
     <div class="asset-info">
-      <h2><small style="color: grey">CONFERENCE DATE</small><br><strong>9TH, 10TH &amp; 11TH JANUARY 2018</strong></h2>
+      <h2><small style="color: grey">CONFERENCE DATE</small><br><strong>9TH, 10TH &amp; 11TH MARCH 2018</strong></h2>
       <hr>
       <p><span class="fa fa-heart"></span> Thank You! <span style="float: right; color: grey; font-size: 13px;">&copy;  <a style="text-decoration: none;" class="right" href="{{ url('/') }}">conferenceasset.com</a></span></p>
     </div>
